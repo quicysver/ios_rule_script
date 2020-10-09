@@ -1,0 +1,35 @@
+# NAME: Privacy
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:20
+# DOMAIN: 22
+# DOMAIN-KEYWORD: 3
+# DOMAIN-SUFFIX: 3
+# TOTAL: 28
+HOST,btrace.qq.com,Privacy
+HOST,data.mistat.xiaomi.com,Privacy
+HOST,hm.baidu.com,Privacy
+HOST,hmma.baidu.com,Privacy
+HOST,js.users.51.la,Privacy
+HOST,log-hl-ipv6.snssdk.com,Privacy
+HOST,log-lq.snssdk.com,Privacy
+HOST,log-va.tiktokv.com,Privacy
+HOST,log.byteoversea.com,Privacy
+HOST,log.tiktokv.com,Privacy
+HOST,mc.51.la,Privacy
+HOST,mtrace.qq.com,Privacy
+HOST,safebrowsing.googleapis.com,Privacy
+HOST,safebrowsing.urlsec.qq.com,Privacy
+HOST,track.58.com,Privacy
+HOST,track.tiara.daum.net,Privacy
+HOST,track.tiara.kakao.com,Privacy
+HOST,tracking.intl.miui.com,Privacy
+HOST,tracklog.58.com,Privacy
+HOST,wc.51.la,Privacy
+HOST,xlog.snssdk.com,Privacy
+HOST,zgsdk.zhugeio.com,Privacy
+HOST-SUFFIX,google-analytics.com,Privacy
+HOST-SUFFIX,googletagmanager.com,Privacy
+HOST-SUFFIX,tracking.miui.com,Privacy
+HOST-KEYWORD,log.umeng.com,Privacy
+HOST-KEYWORD,logs.umeng.com,Privacy
+HOST-KEYWORD,logs.umengcloud.com,Privacy

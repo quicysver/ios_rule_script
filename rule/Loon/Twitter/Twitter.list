@@ -1,0 +1,14 @@
+# NAME: Twitter
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:20
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 7
+# TOTAL: 8
+DOMAIN-SUFFIX,periscope.tv
+DOMAIN-SUFFIX,pscp.tv
+DOMAIN-SUFFIX,t.co
+DOMAIN-SUFFIX,twimg.co
+DOMAIN-SUFFIX,twimg.com
+DOMAIN-SUFFIX,twitpic.com
+DOMAIN-SUFFIX,vine.co
+DOMAIN-KEYWORD,twitter

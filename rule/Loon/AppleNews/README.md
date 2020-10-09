@@ -1,0 +1,73 @@
+# AppleNews
+
+## 前言
+
+本项目的AppleNews分流规则由爬虫程序自动维护。
+
+定时爬取互联网上开源的AppleNews分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+
+
+最后检查时间：2020-10-10 00:16:21。
+
+## 规则统计
+
+总计规则：9 条。
+
+各类型规则统计：
+
+| 类型 | 数量(条) |
+| ---- | ---- |
+| DOMAIN | 6 |
+| DOMAIN-SUFFIX | 1 |
+| USER-AGENT | 2 |
+## 重复统计
+
+AppleNews分流规则，与本项目其他分流规则重复情况统计。
+
+| 名称 | 数量 | 重复 | 重合度 |
+| ---- | ---- | ---- | ------ |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/BlackList)    | 63   | 1   |   1.59%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Microsoft)    | 31   | 1   |   3.23%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Apple)    | 49   | 1   |   2.04%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AppleBlock)    | 6   | 1   |   16.67%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Download)    | 7   | 1   |   14.29%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Global)    | 848   | 1   |   0.12%  |
+## 配置说明
+
+### Loon 
+使用地址：
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/AppleNews/AppleNews.list
+
+## 数据来源
+
+本项目的AppleNews分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的AppleNews分流规则，以免造成规则重复。
+
+- https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/AppleNews.list
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleNews.list
+
+
+感谢以上分流规则作者的辛勤付出（排名不分先后）。
+
+如果你有更好的分流规则，欢迎提交给我，我会将它加到数据源中继续完善。
+
+## 最后
+
+### 正则过滤
+
+爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 黑名单
+
+爬虫程序内置部分规则黑名单，在对原始数据进行清洗时，自动将可能引起异常的黑名单规则去除。经过黑名单去除的规则，无法100%涵盖原始规则数据，请知悉。
+
+### 完善规则
+
+如果你：
+
+1. 有更优的原始规则数据
+2. 有更多的黑名单规则数据
+3. 有更好的优化建议
+4. 在使用分流规则时出现异常
+5. 有其他问题
+
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的AppleNews分流规则。

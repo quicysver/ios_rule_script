@@ -1,0 +1,70 @@
+# NAME: BlackList
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:19
+# DOMAIN: 5
+# DOMAIN-SUFFIX: 57
+# USER-AGENT: 1
+# TOTAL: 63
+HOST,api-glb-sea.smoot.apple.com,BlackList
+HOST,books.itunes.apple.com,BlackList
+HOST,hls.itunes.apple.com,BlackList
+HOST,lookup-api.apple.com,BlackList
+HOST,process-name,BlackList
+HOST-SUFFIX,apartmentratings.com,BlackList
+HOST-SUFFIX,apartments.com,BlackList
+HOST-SUFFIX,appsto.re,BlackList
+HOST-SUFFIX,bankmobilevibe.com,BlackList
+HOST-SUFFIX,booktopia.com.au,BlackList
+HOST-SUFFIX,cccat.io,BlackList
+HOST-SUFFIX,centauro.com.br,BlackList
+HOST-SUFFIX,clearsurance.com,BlackList
+HOST-SUFFIX,cloudcone.com,BlackList
+HOST-SUFFIX,costco.com,BlackList
+HOST-SUFFIX,crackle.com,BlackList
+HOST-SUFFIX,depositphotos.cn,BlackList
+HOST-SUFFIX,dish.com,BlackList
+HOST-SUFFIX,dlercloud.com,BlackList
+HOST-SUFFIX,dmm.co.jp,BlackList
+HOST-SUFFIX,dmm.com,BlackList
+HOST-SUFFIX,dnvod.tv,BlackList
+HOST-SUFFIX,esurance.com,BlackList
+HOST-SUFFIX,extmatrix.com,BlackList
+HOST-SUFFIX,fanqiang.network,BlackList
+HOST-SUFFIX,fastpic.ru,BlackList
+HOST-SUFFIX,flipboard.com,BlackList
+HOST-SUFFIX,fnac.be,BlackList
+HOST-SUFFIX,fnac.com,BlackList
+HOST-SUFFIX,funkyimg.com,BlackList
+HOST-SUFFIX,fxnetworks.com,BlackList
+HOST-SUFFIX,gettyimages.com,BlackList
+HOST-SUFFIX,githubusercontent.com,BlackList
+HOST-SUFFIX,gnews.org,BlackList
+HOST-SUFFIX,go.com,BlackList
+HOST-SUFFIX,here.com,BlackList
+HOST-SUFFIX,jcpenney.com,BlackList
+HOST-SUFFIX,jiehua.tv,BlackList
+HOST-SUFFIX,krypt.com,BlackList
+HOST-SUFFIX,mailfence.com,BlackList
+HOST-SUFFIX,merlinblog.xyz,BlackList
+HOST-SUFFIX,myjs.tw,BlackList
+HOST-SUFFIX,nationwide.com,BlackList
+HOST-SUFFIX,nbc.com,BlackList
+HOST-SUFFIX,nexon.com,BlackList
+HOST-SUFFIX,nordstrom.com,BlackList
+HOST-SUFFIX,nordstromimage.com,BlackList
+HOST-SUFFIX,nordstromrack.com,BlackList
+HOST-SUFFIX,notion.so,BlackList
+HOST-SUFFIX,pythonhosted.org,BlackList
+HOST-SUFFIX,superpages.com,BlackList
+HOST-SUFFIX,target.com,BlackList
+HOST-SUFFIX,thinkgeek.com,BlackList
+HOST-SUFFIX,tracfone.com,BlackList
+HOST-SUFFIX,unity3d.com,BlackList
+HOST-SUFFIX,uploader.jp,BlackList
+HOST-SUFFIX,vevo.com,BlackList
+HOST-SUFFIX,viu.tv,BlackList
+HOST-SUFFIX,vk.com,BlackList
+HOST-SUFFIX,vsco.co,BlackList
+HOST-SUFFIX,xfinity.com,BlackList
+HOST-SUFFIX,zattoo.com,BlackList
+USER-AGENT,roam*,BlackList

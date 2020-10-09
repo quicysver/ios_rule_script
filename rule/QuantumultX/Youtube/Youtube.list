@@ -1,0 +1,14 @@
+# NAME: Youtube
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:19
+# DOMAIN: 1
+# DOMAIN-SUFFIX: 2
+# USER-AGENT: 4
+# TOTAL: 7
+HOST,youtubei.googleapis.com,Youtube
+HOST-SUFFIX,googlevideo.com,Youtube
+HOST-SUFFIX,youtube.com,Youtube
+USER-AGENT,com.google.ios.youtube*,Youtube
+USER-AGENT,com.google.ios.youtubemusic*,Youtube
+USER-AGENT,youtube*,Youtube
+USER-AGENT,youtubemusic*,Youtube

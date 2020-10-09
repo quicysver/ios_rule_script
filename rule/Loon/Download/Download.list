@@ -1,0 +1,14 @@
+# NAME: Download
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:20
+# DOMAIN: 1
+# DOMAIN-KEYWORD: 5
+# URL-REGEX: 1
+# TOTAL: 7
+DOMAIN,process-name
+DOMAIN-KEYWORD,aria2
+DOMAIN-KEYWORD,thunder
+DOMAIN-KEYWORD,xlliveud
+DOMAIN-KEYWORD,xunlei
+DOMAIN-KEYWORD,yunpan
+URL-REGEX,(torrent|announce.php\?passkey=|tracker|bittorrent|bt_key|ed2k|find_node|get_peers|info_hash|magnet:|peer_id=)

@@ -1,0 +1,86 @@
+# NAME: DomesticMedia
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:20
+# DOMAIN: 4
+# DOMAIN-KEYWORD: 2
+# DOMAIN-SUFFIX: 44
+# IP-CIDR: 4
+# USER-AGENT: 23
+# TOTAL: 77
+HOST,api.bilibili.com,DomesticMedia
+HOST,aqqmusic.tc.qq.com,DomesticMedia
+HOST,cache.video.iqiyi.com,DomesticMedia
+HOST,upos-hz-mirrorakam.akamaized.net,DomesticMedia
+HOST-SUFFIX,56.com,DomesticMedia
+HOST-SUFFIX,71.am.com,DomesticMedia
+HOST-SUFFIX,acfun.cn,DomesticMedia
+HOST-SUFFIX,acfun.com,DomesticMedia
+HOST-SUFFIX,acg.tv,DomesticMedia
+HOST-SUFFIX,acgvideo.com,DomesticMedia
+HOST-SUFFIX,aixifan.com,DomesticMedia
+HOST-SUFFIX,api.mob.app.letv.com,DomesticMedia
+HOST-SUFFIX,b23.tv,DomesticMedia
+HOST-SUFFIX,biliapi.com,DomesticMedia
+HOST-SUFFIX,biliapi.net,DomesticMedia
+HOST-SUFFIX,bilibili.com,DomesticMedia
+HOST-SUFFIX,bilibili.tv,DomesticMedia
+HOST-SUFFIX,biligame.com,DomesticMedia
+HOST-SUFFIX,biligame.net,DomesticMedia
+HOST-SUFFIX,bilivideo.com,DomesticMedia
+HOST-SUFFIX,cmvideo.cn,DomesticMedia
+HOST-SUFFIX,hdslb.com,DomesticMedia
+HOST-SUFFIX,hitv.com,DomesticMedia
+HOST-SUFFIX,hunantv.com,DomesticMedia
+HOST-SUFFIX,im9.com,DomesticMedia
+HOST-SUFFIX,itc.cn,DomesticMedia
+HOST-SUFFIX,koowo.com,DomesticMedia
+HOST-SUFFIX,kugou.com,DomesticMedia
+HOST-SUFFIX,kuwo.cn,DomesticMedia
+HOST-SUFFIX,mgtv.com,DomesticMedia
+HOST-SUFFIX,migu.cn,DomesticMedia
+HOST-SUFFIX,miguvideo.com,DomesticMedia
+HOST-SUFFIX,music.126.net,DomesticMedia
+HOST-SUFFIX,music.163.com,DomesticMedia
+HOST-SUFFIX,qianqian.com,DomesticMedia
+HOST-SUFFIX,qqmusic.qq.com,DomesticMedia
+HOST-SUFFIX,qy.net,DomesticMedia
+HOST-SUFFIX,sohu.com,DomesticMedia
+HOST-SUFFIX,sohu.com.cn,DomesticMedia
+HOST-SUFFIX,soku.com,DomesticMedia
+HOST-SUFFIX,v-56.com,DomesticMedia
+HOST-SUFFIX,video.qq.com,DomesticMedia
+HOST-SUFFIX,vv.video.qq.com,DomesticMedia
+HOST-SUFFIX,xiami.com,DomesticMedia
+HOST-SUFFIX,xiami.net,DomesticMedia
+HOST-SUFFIX,y.qq.com,DomesticMedia
+HOST-SUFFIX,ykimg.com,DomesticMedia
+HOST-SUFFIX,youku.com,DomesticMedia
+HOST-KEYWORD,bilibili,DomesticMedia
+HOST-KEYWORD,qiyi,DomesticMedia
+USER-AGENT,%e4%bc%98%e9%85%b7*,DomesticMedia
+USER-AGENT,%e5%92%aa%e5%92%95%e8%a7%86%e9%a2%91,DomesticMedia
+USER-AGENT,%e7%bd%91%e6%98%93%e4%ba%91%e9%9f%b3%e4%b9%90*,DomesticMedia
+USER-AGENT,%e9%85%b7%e6%88%91%e9%9f%b3%e4%b9%90*,DomesticMedia
+USER-AGENT,*bili*,DomesticMedia
+USER-AGENT,acfun*,DomesticMedia
+USER-AGENT,baiduyinyue,DomesticMedia
+USER-AGENT,iqiyi*,DomesticMedia
+USER-AGENT,live4iphone*,DomesticMedia
+USER-AGENT,mgtv*,DomesticMedia
+USER-AGENT,miguvideo*,DomesticMedia
+USER-AGENT,moo%e9%9f%b3%e4%b9%90*,DomesticMedia
+USER-AGENT,moo*,DomesticMedia
+USER-AGENT,neteasemusic*,DomesticMedia
+USER-AGENT,ppstream*,DomesticMedia
+USER-AGENT,qiyi*,DomesticMedia
+USER-AGENT,qq%e9%9f%b3%e4%b9%90,DomesticMedia
+USER-AGENT,qqlive4iphone*,DomesticMedia
+USER-AGENT,qyplayer*,DomesticMedia
+USER-AGENT,tencentmidasconnect*,DomesticMedia
+USER-AGENT,walkman*,DomesticMedia
+USER-AGENT,xiami*,DomesticMedia
+USER-AGENT,youku*,DomesticMedia
+IP-CIDR,101.224.0.0/13,DomesticMedia
+IP-CIDR,101.227.0.0/16,DomesticMedia
+IP-CIDR,106.11.0.0/16,DomesticMedia
+IP-CIDR,119.176.0.0/12,DomesticMedia

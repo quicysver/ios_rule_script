@@ -1,0 +1,39 @@
+# NAME: Microsoft
+# GITHUB: https://github.com/blackmatrix7/ios_rule_bot
+# UPDATE: 2020-10-10 00:16:19
+# DOMAIN: 2
+# DOMAIN-KEYWORD: 1
+# DOMAIN-SUFFIX: 26
+# USER-AGENT: 2
+# TOTAL: 31
+HOST,oneclient.sfx.ms,Microsoft
+HOST,process-name,Microsoft
+HOST-SUFFIX,1drv.com,Microsoft
+HOST-SUFFIX,azure.com,Microsoft
+HOST-SUFFIX,fabric.io,Microsoft
+HOST-SUFFIX,files.1drv.com,Microsoft
+HOST-SUFFIX,hotmail.com,Microsoft
+HOST-SUFFIX,live.com,Microsoft
+HOST-SUFFIX,live.net,Microsoft
+HOST-SUFFIX,livefilestore.com,Microsoft
+HOST-SUFFIX,mesh.com,Microsoft
+HOST-SUFFIX,microsoft-tst.com,Microsoft
+HOST-SUFFIX,microsoft.com,Microsoft
+HOST-SUFFIX,microsoftonline.com,Microsoft
+HOST-SUFFIX,msn.com,Microsoft
+HOST-SUFFIX,office.com,Microsoft
+HOST-SUFFIX,office.net,Microsoft
+HOST-SUFFIX,onedrive.com,Microsoft
+HOST-SUFFIX,outlook.com,Microsoft
+HOST-SUFFIX,p.sfx.ms,Microsoft
+HOST-SUFFIX,sharepoint.com,Microsoft
+HOST-SUFFIX,skype.com,Microsoft
+HOST-SUFFIX,spoprod-a.akamaihd.net,Microsoft
+HOST-SUFFIX,storage.live.com,Microsoft
+HOST-SUFFIX,storage.msn.com,Microsoft
+HOST-SUFFIX,windows.net,Microsoft
+HOST-SUFFIX,xbox.com,Microsoft
+HOST-SUFFIX,xboxlive.com,Microsoft
+HOST-KEYWORD,onedrive,Microsoft
+USER-AGENT,onedrive*,Microsoft
+USER-AGENT,onedriveiosapp*,Microsoft
