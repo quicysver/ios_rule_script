@@ -7,7 +7,7 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 16:48:44。
+最后检查时间：2020-10-10 23:13:44。
 
 ## 规则统计
 
@@ -60,7 +60,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Quantum
 
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
-- https://raw.githubusercontent.com/idreamtalk/dreamboat/master/rule/connershua/Quantumult/X/Filter/ForeignMedia.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
