@@ -9,7 +9,7 @@
 本复写模块不包含任何知乎去广告规则
 
 
-最后检查时间：2020-10-11 00:45:55。
+最后检查时间：2020-10-11 00:49:34。
 
 ## 复写统计
 
@@ -38,6 +38,13 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/S
 
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/RewriteRules.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.sgmodule
+- https://raw.githubusercontent.com/eHpo1/Rules/master/QuantumultX/Rewrite.txt
+- https://raw.githubusercontent.com/NobyDa/Script/master/QuantumultX/Rewrite_lhie1.conf
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Quantumult/Rewrite/Advertising.conf
+- https://raw.githubusercontent.com/Tartarus2014/For-own-use/master/Loon/Plugin/Advertising.plugin
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnwrite
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.lnplugin
+- https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
 
 
 感谢以上复写规则作者的辛勤付出（排名不分先后）。
