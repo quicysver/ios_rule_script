@@ -23,6 +23,14 @@ iOS平台的分流规则、复写规则及自动化脚本。
 
 感谢所有开源规则项目作者的辛勤付出。
 
+分流规则
+
+https://github.com/blackmatrix7/ios_rule_script/tree/master/rule
+
+复写规则
+
+https://github.com/blackmatrix7/ios_rule_script/tree/master/rewrite
+
 ## 脚本
 
 ### 支持情况
