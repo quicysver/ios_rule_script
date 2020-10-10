@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则
 
-最后检查时间：2020-10-10 23:13:42。
+最后检查时间：2020-10-10 23:47:54。
 
 ## 规则统计
 
@@ -29,17 +29,17 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/AdvertisingLite)    | 131289   | 131289   |   100.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/China)    | 593   | 10   |   1.69%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/WhiteList)    | 6   | 1   |   16.67%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/BlackList)    | 63   | 1   |   1.59%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Apple)    | 49   | 1   |   2.04%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Global)    | 848   | 7   |   0.83%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/GlobalMedia)    | 192   | 1   |   0.52%  |
-|  [Hijacking](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Hijacking)    | 209   | 209   |   100.00%  |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/DomesticMedia)    | 77   | 1   |   1.30%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Privacy)    | 28   | 9   |   32.14%  |
-|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/NetEaseMusic)    | 31   | 1   |   3.23%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | 131289   |   100.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | 10   |   1.69%  |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/WhiteList)    | 6   | 1   |   16.67%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 63   | 1   |   1.59%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | 1   |   2.04%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 7   |   0.83%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | 1   |   0.52%  |
+|  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking)    | 209   | 209   |   100.00%  |
+|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DomesticMedia)    | 77   | 1   |   1.30%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy)    | 28   | 9   |   32.14%  |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic)    | 31   | 1   |   3.23%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -49,15 +49,15 @@
 ### Surge 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/Advertising/Advertising.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Advertising.list
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/Advertising/Domain.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Advertising/Domain.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Advertising/Advertising.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Advertising.list
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Advertising/Domain.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Advertising/Domain.list
 
 ### 特别说明
 
@@ -88,8 +88,8 @@ Advertising.list请使用RULE-SET，Domain.list请使用DOMAIN-SET。
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
 - https://raw.githubusercontent.com/privacy-protection-tools/anti-AD/master/anti-ad-surge.txt
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/connershua/Quantumult/X/Filter/Advertising.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -116,4 +116,4 @@ Advertising.list请使用RULE-SET，Domain.list请使用DOMAIN-SET。
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的去广告分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告分流规则。

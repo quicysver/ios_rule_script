@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则
 
-最后检查时间：2020-10-10 23:13:42。
+最后检查时间：2020-10-10 23:47:54。
 
 ## 规则统计
 
@@ -29,15 +29,15 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Advertising)    | 156173   | 131289   |   84.07%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/China)    | 593   | 7   |   1.18%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/WhiteList)    | 6   | 1   |   16.67%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Apple)    | 49   | 1   |   2.04%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Global)    | 848   | 3   |   0.35%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | 1   |   0.52%  |
-|  [Hijacking](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Hijacking)    | 209   | 209   |   100.00%  |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/DomesticMedia)    | 77   | 1   |   1.30%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Privacy)    | 28   | 9   |   32.14%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156173   | 131289   |   84.07%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | 7   |   1.18%  |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList)    | 6   | 1   |   16.67%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | 1   |   2.04%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 848   | 3   |   0.35%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | 1   |   0.52%  |
+|  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking)    | 209   | 209   |   100.00%  |
+|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DomesticMedia)    | 77   | 1   |   1.30%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 28   | 9   |   32.14%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -47,11 +47,11 @@
 ### QuantumultX 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/AdvertisingLite/AdvertisingLite.list
 
 ## 数据来源
 
@@ -77,8 +77,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Quantum
 - https://raw.githubusercontent.com/scomper/surge-list/master/adblock.list
 - https://raw.githubusercontent.com/nzw9314/Surge/master/Ruleset/Tide.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Reject.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/connershua/Quantumult/X/Filter/Advertising.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Advertising/LianXiangJia/LianXiangJia.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/Advertising.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -105,4 +105,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Quantum
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的去广告精简版分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告精简版分流规则。

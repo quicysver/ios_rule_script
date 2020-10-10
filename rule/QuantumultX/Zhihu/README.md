@@ -8,7 +8,7 @@
 
 本分流规则，需要搭配 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu 使用
 
-最后检查时间：2020-10-10 23:13:45。
+最后检查时间：2020-10-10 23:47:56。
 
 ## 规则统计
 
@@ -39,11 +39,11 @@
 ### QuantumultX 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/QuantumultX/Zhihu/Zhihu.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/Zhihu/Zhihu.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/QuantumultX/Zhihu/Zhihu.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/Zhihu/Zhihu.list
 
 ## 数据来源
 
@@ -76,4 +76,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Quantum
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的知乎广告拦截分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的知乎广告拦截分流规则。

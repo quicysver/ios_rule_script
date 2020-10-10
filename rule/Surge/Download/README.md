@@ -7,7 +7,7 @@
 定时爬取互联网上开源的下载分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 23:13:44。
+最后检查时间：2020-10-10 23:47:55。
 
 ## 规则统计
 
@@ -26,12 +26,12 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/BlackList)    | 63   | 1   |   1.59%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Microsoft)    | 31   | 1   |   3.23%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Apple)    | 49   | 1   |   2.04%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/AppleNews)    | 9   | 1   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/AppleBlock)    | 6   | 1   |   16.67%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Global)    | 848   | 1   |   0.12%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 63   | 1   |   1.59%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 31   | 1   |   3.23%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | 1   |   2.04%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | 1   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | 1   |   16.67%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 1   |   0.12%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -41,11 +41,11 @@
 ### Surge 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/Download/Download.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Download/Download.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Download/Download.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Download/Download.list
 
 ## 数据来源
 
@@ -78,4 +78,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/D
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的下载分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的下载分流规则。

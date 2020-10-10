@@ -7,7 +7,7 @@
 定时爬取互联网上开源的暴雪娱乐分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 23:13:42。
+最后检查时间：2020-10-10 23:47:54。
 
 ## 规则统计
 
@@ -25,8 +25,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/China)    | 593   | 3   |   0.51%  |
-|  [Game](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Game)    | 28   | 6   |   21.43%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | 3   |   0.51%  |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | 6   |   21.43%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -36,11 +36,11 @@
 ### Loon 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/Blizzard/Blizzard.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Blizzard/Blizzard.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Blizzard/Blizzard.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Blizzard/Blizzard.list
 
 ## 数据来源
 
@@ -73,4 +73,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Bl
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的暴雪娱乐分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的暴雪娱乐分流规则。

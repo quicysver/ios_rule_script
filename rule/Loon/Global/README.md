@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Global分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 23:13:44。
+最后检查时间：2020-10-10 23:47:56。
 
 ## 规则统计
 
@@ -30,33 +30,33 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Advertising)    | 156173   | 7   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AdvertisingLite)    | 131289   | 3   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/China)    | 593   | 4   |   0.67%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/BlackList)    | 63   | 63   |   100.00%  |
-|  [PayPal](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/PayPal)    | 5   | 3   |   60.00%  |
-|  [Steam](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Steam)    | 16   | 1   |   6.25%  |
-|  [Discord](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Discord)    | 6   | 3   |   50.00%  |
-|  [Game](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Game)    | 28   | 4   |   14.29%  |
-|  [Google](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Google)    | 64   | 56   |   87.50%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Youtube)    | 7   | 7   |   100.00%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Microsoft)    | 31   | 8   |   25.81%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Apple)    | 49   | 3   |   6.12%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AppleNews)    | 9   | 1   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AppleBlock)    | 6   | 6   |   100.00%  |
-|  [Speedtest](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Speedtest)    | 5   | 1   |   20.00%  |
-|  [Telegram](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Telegram)    | 19   | 16   |   84.21%  |
-|  [Netflix](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Netflix)    | 34   | 28   |   82.35%  |
-|  [Pornhub](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Pornhub)    | 4   | 4   |   100.00%  |
-|  [Bahamut](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Bahamut)    | 5   | 5   |   100.00%  |
-|  [Disney](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Disney)    | 6   | 6   |   100.00%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Download)    | 7   | 1   |   14.29%  |
-|  [Facebook](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Facebook)    | 25   | 25   |   100.00%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/GlobalMedia)    | 192   | 186   |   96.88%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Spotify)    | 7   | 7   |   100.00%  |
-|  [TestFight](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/TestFight)    | 2   | 1   |   50.00%  |
-|  [AppStore](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AppStore)    | 2   | 2   |   100.00%  |
-|  [Twitter](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Twitter)    | 8   | 8   |   100.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156173   | 7   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | 3   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | 4   |   0.67%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 63   | 63   |   100.00%  |
+|  [PayPal](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/PayPal)    | 5   | 3   |   60.00%  |
+|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam)    | 16   | 1   |   6.25%  |
+|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord)    | 6   | 3   |   50.00%  |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game)    | 28   | 4   |   14.29%  |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 64   | 56   |   87.50%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 7   | 7   |   100.00%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 31   | 8   |   25.81%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 49   | 3   |   6.12%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 9   | 1   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 6   | 6   |   100.00%  |
+|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest)    | 5   | 1   |   20.00%  |
+|  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Telegram)    | 19   | 16   |   84.21%  |
+|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix)    | 34   | 28   |   82.35%  |
+|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Pornhub)    | 4   | 4   |   100.00%  |
+|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | 5   |   100.00%  |
+|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Disney)    | 6   | 6   |   100.00%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Download)    | 7   | 1   |   14.29%  |
+|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Facebook)    | 25   | 25   |   100.00%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 192   | 186   |   96.88%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify)    | 7   | 7   |   100.00%  |
+|  [TestFight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TestFight)    | 2   | 1   |   50.00%  |
+|  [AppStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppStore)    | 2   | 2   |   100.00%  |
+|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Twitter)    | 8   | 8   |   100.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -66,11 +66,11 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 ### Loon 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/Global/Global.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Global/Global.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Global/Global.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Global/Global.list
 
 ## 数据来源
 
@@ -80,8 +80,8 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Gl
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Global.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Global.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/rule/BlackList/BlackList.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/rule/AppleBlock/AppleBlock.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppleBlock/AppleBlock.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -108,4 +108,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Gl
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的Global分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Global分流规则。

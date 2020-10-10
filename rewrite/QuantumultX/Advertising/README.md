@@ -9,7 +9,7 @@
 本复写规则不包含任何知乎去广告规则
 
 
-最后检查时间：2020-10-10 16:48:55。
+最后检查时间：2020-10-10 23:48:02。
 
 ## 复写统计
 
@@ -25,10 +25,10 @@
 
 ### QuantumultX 
 实时版：
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/ios_rule_bot/master/rewrite/QuantumultX/Advertising/Advertising.conf
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf
 
 稳定版：
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/master/rewrite/QuantumultX/Advertising/Advertising.conf
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/master/rewrite/QuantumultX/Advertising/Advertising.conf
 
 ## 数据来源
 
@@ -47,11 +47,11 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/master/rewri
 
 ### 正则合并
 
-爬虫程序除对完全一样的正则表达式进行去重外，还会通过算法对较为相似的正则进行去重合并。目前算法初步初步过滤600多条相似的正则。但因为正则表达式的复杂性，算法无法100%精确过滤所有重复正则，并可能误过滤一些相似但并不重复的正则。如果你在使用中，发现以上的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈。
+爬虫程序除对完全一样的正则表达式进行去重外，还会通过算法对较为相似的正则进行去重合并。目前算法初步初步过滤600多条相似的正则。但因为正则表达式的复杂性，算法无法100%精确过滤所有重复正则，并可能误过滤一些相似但并不重复的正则。如果你在使用中，发现以上的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈。
 
 ### MITM
 
-爬虫程序除保留数据源中的MITM主机名外， 还会通过算法，根据正则反推部分主机名，用于补充数据源中可能遗漏的MITM主机名。但因为正则表达式的复杂性，算法无法100%反推所有的正确主机名。如果你在使用中，发现主机名错误的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈。
+爬虫程序除保留数据源中的MITM主机名外， 还会通过算法，根据正则反推部分主机名，用于补充数据源中可能遗漏的MITM主机名。但因为正则表达式的复杂性，算法无法100%反推所有的正确主机名。如果你在使用中，发现主机名错误的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈。
 
 除正则反推外，爬虫程序还会对部分重复的主机名进行去除。如同时存在zhidao.baidu.com和*.baidu.com两个主机名，则zhidao.baidu.com会被去除。
 
@@ -73,4 +73,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/master/rewri
 4. 在使用复写规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的去广告复写规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告复写规则。

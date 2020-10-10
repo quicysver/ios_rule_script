@@ -8,7 +8,7 @@
 
 含有Steam、Blizzard、Discord等分流规则
 
-最后检查时间：2020-10-10 23:13:43。
+最后检查时间：2020-10-10 23:47:54。
 
 ## 规则统计
 
@@ -26,11 +26,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/China)    | 593   | 10   |   1.69%  |
-|  [Steam](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Steam)    | 16   | 16   |   100.00%  |
-|  [Blizzard](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Blizzard)    | 6   | 6   |   100.00%  |
-|  [Discord](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Discord)    | 6   | 6   |   100.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Global)    | 848   | 4   |   0.47%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | 10   |   1.69%  |
+|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam)    | 16   | 16   |   100.00%  |
+|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard)    | 6   | 6   |   100.00%  |
+|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord)    | 6   | 6   |   100.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 848   | 4   |   0.47%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -40,11 +40,11 @@
 ### Loon 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/Game/Game.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/Game/Game.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Game/Game.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/Game/Game.list
 
 ## 数据来源
 
@@ -80,4 +80,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Ga
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的游戏分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的游戏分流规则。

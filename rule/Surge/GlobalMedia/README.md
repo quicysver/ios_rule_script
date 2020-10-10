@@ -7,7 +7,7 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 23:13:44。
+最后检查时间：2020-10-10 23:47:56。
 
 ## 规则统计
 
@@ -28,17 +28,17 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Advertising)    | 156173   | 1   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/AdvertisingLite)    | 131289   | 1   |   0.00%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/BlackList)    | 63   | 1   |   1.59%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Youtube)    | 7   | 7   |   100.00%  |
-|  [Speedtest](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Speedtest)    | 5   | 1   |   20.00%  |
-|  [Netflix](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Netflix)    | 34   | 34   |   100.00%  |
-|  [Pornhub](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Pornhub)    | 4   | 4   |   100.00%  |
-|  [Bahamut](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Bahamut)    | 5   | 5   |   100.00%  |
-|  [Disney](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Disney)    | 6   | 6   |   100.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Global)    | 848   | 186   |   21.93%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Spotify)    | 7   | 7   |   100.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156173   | 1   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | 1   |   0.00%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 63   | 1   |   1.59%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 7   | 7   |   100.00%  |
+|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Speedtest)    | 5   | 1   |   20.00%  |
+|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Netflix)    | 34   | 34   |   100.00%  |
+|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Pornhub)    | 4   | 4   |   100.00%  |
+|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bahamut)    | 5   | 5   |   100.00%  |
+|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney)    | 6   | 6   |   100.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 186   |   21.93%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 7   | 7   |   100.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -48,11 +48,11 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 ### Surge 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/GlobalMedia/GlobalMedia.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/GlobalMedia/GlobalMedia.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/GlobalMedia/GlobalMedia.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/GlobalMedia/GlobalMedia.list
 
 ## 数据来源
 
@@ -60,7 +60,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/G
 
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -87,4 +87,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/G
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的GlobalMedia分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的GlobalMedia分流规则。

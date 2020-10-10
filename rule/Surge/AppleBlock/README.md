@@ -7,7 +7,7 @@
 定时爬取互联网上开源的AppleBlock分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 23:13:43。
+最后检查时间：2020-10-10 23:47:55。
 
 ## 规则统计
 
@@ -25,12 +25,12 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/BlackList)    | 63   | 6   |   9.52%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Microsoft)    | 31   | 1   |   3.23%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Apple)    | 49   | 3   |   6.12%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/AppleNews)    | 9   | 1   |   11.11%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Download)    | 7   | 1   |   14.29%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Global)    | 848   | 6   |   0.71%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 63   | 6   |   9.52%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 31   | 1   |   3.23%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | 3   |   6.12%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | 1   |   11.11%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | 1   |   14.29%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 6   |   0.71%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -40,17 +40,17 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 ### Surge 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/AppleBlock/AppleBlock.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/AppleBlock/AppleBlock.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/AppleBlock/AppleBlock.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/AppleBlock/AppleBlock.list
 
 ## 数据来源
 
 本项目的AppleBlock分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的AppleBlock分流规则，以免造成规则重复。
 
-- https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/source/rule/AppleBlock/AppleBlock.list
+- https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppleBlock/AppleBlock.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -77,4 +77,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/A
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的AppleBlock分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的AppleBlock分流规则。

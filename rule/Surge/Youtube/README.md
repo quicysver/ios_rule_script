@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Youtube分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 23:13:43。
+最后检查时间：2020-10-10 23:47:55。
 
 ## 规则统计
 
@@ -26,8 +26,8 @@ Youtube分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Global)    | 848   | 7   |   0.83%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/GlobalMedia)    | 192   | 7   |   3.65%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 7   |   0.83%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | 7   |   3.65%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
@@ -37,11 +37,11 @@ Youtube分流规则，与本项目其他分流规则重复情况统计。
 ### Surge 
 实时版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/Youtube/Youtube.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Youtube/Youtube.list
 
 稳定版：
 
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Youtube/Youtube.list
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Youtube/Youtube.list
 
 ## 数据来源
 
@@ -76,4 +76,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Y
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_bot/issues/new)提交反馈，共同完善本项目的Youtube分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Youtube分流规则。
