@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 00:49:23。
+最后检查时间：2020-10-11 01:18:26。
 
 ## 规则统计
 
@@ -31,6 +31,9 @@
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | 7   |   1.18%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | 13   |   100.00%  |
 |  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DomesticMedia)    | 77   | 28   |   36.36%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6607   | 2   |   0.03%  |
+|  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi)    | 7   | 7   |   100.00%  |
+|  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo)    | 2   | 1   |   50.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

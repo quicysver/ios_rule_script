@@ -7,18 +7,18 @@
 定时爬取互联网上开源的Spotify分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 00:49:22。
+最后检查时间：2020-10-11 01:18:26。
 
 ## 规则统计
 
-总计规则：7 条。
+总计规则：8 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-KEYWORD | 2 |
-| DOMAIN-SUFFIX | 4 |
+| DOMAIN-SUFFIX | 5 |
 | USER-AGENT | 1 |
 ## 重复统计
 
@@ -26,6 +26,7 @@ Spotify分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | 1   |   0.13%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 7   |   0.83%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | 7   |   3.65%  |
 ## 配置说明
@@ -48,6 +49,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 本项目的Spotify分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的Spotify分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/Spotify.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Spotify.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

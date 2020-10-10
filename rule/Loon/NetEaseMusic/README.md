@@ -7,18 +7,19 @@
 定时爬取互联网上开源的网易云音乐分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 00:49:23。
+最后检查时间：2020-10-11 01:18:26。
 
 ## 规则统计
 
-总计规则：31 条。
+总计规则：41 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
+| DOMAIN | 6 |
 | DOMAIN-SUFFIX | 10 |
-| IP-CIDR | 21 |
+| IP-CIDR | 25 |
 ## 重复统计
 
 网易云音乐分流规则，与本项目其他分流规则重复情况统计。
@@ -47,6 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 本项目的网易云音乐分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的网易云音乐分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list
+- https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则
 
-最后检查时间：2020-10-11 00:49:20。
+最后检查时间：2020-10-11 01:18:23。
 
 ## 规则统计
 
@@ -32,6 +32,7 @@
 |  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156173   | 131289   |   84.07%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | 7   |   1.18%  |
 |  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList)    | 6   | 1   |   16.67%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | 11   |   1.41%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | 1   |   2.04%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 848   | 3   |   0.35%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | 1   |   0.52%  |

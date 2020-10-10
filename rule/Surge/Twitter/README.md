@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Twitter分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 00:49:23。
+最后检查时间：2020-10-11 01:18:26。
 
 ## 规则统计
 
@@ -25,6 +25,7 @@ Twitter分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | 7   |   0.90%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 848   | 8   |   0.94%  |
 ## 配置说明
 
