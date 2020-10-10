@@ -8,7 +8,7 @@
 
 含有OneDriver分流规则
 
-最后检查时间：2020-10-10 00:16:21。
+最后检查时间：2020-10-10 16:48:43。
 
 ## 规则统计
 
@@ -37,9 +37,18 @@ Microsoft分流规则，与本项目其他分流规则重复情况统计。
 |  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Global)    | 848   | 8   |   0.94%  |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### Loon 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/Microsoft/Microsoft.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/Microsoft/Microsoft.list
 
 ## 数据来源
 

@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则
 
-最后检查时间：2020-10-10 00:16:20。
+最后检查时间：2020-10-10 16:48:42。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Advertising)    | 155779   | 131289   |   84.28%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Advertising)    | 156173   | 131289   |   84.07%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/China)    | 593   | 7   |   1.18%  |
 |  [WhiteList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/WhiteList)    | 6   | 1   |   16.67%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Apple)    | 49   | 1   |   2.04%  |
@@ -40,9 +40,18 @@
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Privacy)    | 28   | 9   |   32.14%  |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### Loon 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/AdvertisingLite/AdvertisingLite.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/AdvertisingLite/AdvertisingLite.list
 
 ## 数据来源
 

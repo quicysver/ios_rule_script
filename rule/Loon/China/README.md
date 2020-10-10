@@ -7,7 +7,7 @@
 定时爬取互联网上开源的China分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 00:16:20。
+最后检查时间：2020-10-10 16:48:42。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@ China分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Advertising)    | 155779   | 10   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/Advertising)    | 156173   | 10   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AdvertisingLite)    | 131289   | 7   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/BlackList)    | 63   | 1   |   1.59%  |
 |  [PayPal](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/PayPal)    | 5   | 4   |   80.00%  |
@@ -48,9 +48,18 @@ China分流规则，与本项目其他分流规则重复情况统计。
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Loon/AsianMedia)    | 28   | 7   |   25.00%  |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### Loon 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Loon/China/China.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Loon/China/China.list
 
 ## 数据来源
 

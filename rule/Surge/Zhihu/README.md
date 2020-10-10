@@ -8,7 +8,7 @@
 
 本分流规则，需要搭配 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu 使用
 
-最后检查时间：2020-10-10 00:16:22。
+最后检查时间：2020-10-10 16:48:45。
 
 ## 规则统计
 
@@ -32,9 +32,18 @@
 
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### Surge 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/Zhihu/Zhihu.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Zhihu/Zhihu.list
 
 ## 数据来源
 

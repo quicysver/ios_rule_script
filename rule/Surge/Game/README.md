@@ -8,7 +8,7 @@
 
 含有Steam、Blizzard、Discord等分流规则
 
-最后检查时间：2020-10-10 00:16:21。
+最后检查时间：2020-10-10 16:48:43。
 
 ## 规则统计
 
@@ -33,9 +33,18 @@
 |  [Global](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/Surge/Global)    | 848   | 4   |   0.47%  |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### Surge 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/Surge/Game/Game.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/Surge/Game/Game.list
 
 ## 数据来源
 

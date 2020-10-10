@@ -7,7 +7,7 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-10 00:16:22。
+最后检查时间：2020-10-10 16:48:44。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Advertising)    | 155779   | 1   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Advertising)    | 156173   | 1   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | 1   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/BlackList)    | 63   | 1   |   1.59%  |
 |  [Youtube](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Youtube)    | 7   | 7   |   100.00%  |
@@ -41,9 +41,18 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 |  [Spotify](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/Spotify)    | 7   | 7   |   100.00%  |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### QuantumultX 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/QuantumultX/GlobalMedia/GlobalMedia.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/QuantumultX/GlobalMedia/GlobalMedia.list
 
 ## 数据来源
 

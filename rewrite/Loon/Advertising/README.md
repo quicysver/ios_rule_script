@@ -9,19 +9,28 @@
 本复写插件不包含任何知乎去广告规则
 
 
-最后检查时间：2020-10-10 00:16:33。
+最后检查时间：2020-10-10 16:48:56。
 
 ## 复写统计
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| MITM | 469 |
-| UrlRewrite | 1021 |
+| MITM | 470 |
+| UrlRewrite | 866 |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### Loon 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rewrite/Loon/Advertising/Advertising.plugin
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rewrite/Loon/Advertising/Advertising.plugin
 
 ## 数据来源
 

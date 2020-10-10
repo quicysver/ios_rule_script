@@ -8,11 +8,11 @@
 
 本分流规则不包含任何知乎去广告规则
 
-最后检查时间：2020-10-10 00:16:20。
+最后检查时间：2020-10-10 16:48:42。
 
 ## 规则统计
 
-总计规则：155779 条。
+总计规则：156173 条。
 
 各类型规则统计：
 
@@ -20,7 +20,7 @@
 | ---- | ---- |
 | DOMAIN | 112970 |
 | DOMAIN-KEYWORD | 55 |
-| DOMAIN-SUFFIX | 42181 |
+| DOMAIN-SUFFIX | 42575 |
 | IP-CIDR | 232 |
 | URL-REGEX | 341 |
 ## 重复统计
@@ -42,9 +42,18 @@
 |  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_bot/tree/master/rule/QuantumultX/NetEaseMusic)    | 31   | 1   |   3.23%  |
 ## 配置说明
 
+实时版：爬虫程序定时更新，更新频率高，但由于数据源不可控，偶尔会出现Bug
+
+稳定版：不定时手动更新，更新频率低，但稳定性好
+
 ### QuantumultX 
-使用地址：
+实时版：
+
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/master/rule/QuantumultX/Advertising/Advertising.list
+
+稳定版：
+
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_bot/release/rule/QuantumultX/Advertising/Advertising.list
 
 ## 数据来源
 
