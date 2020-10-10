@@ -9,7 +9,7 @@
 本复写规则不包含任何知乎去广告规则
 
 
-最后检查时间：2020-10-11 00:24:38。
+最后检查时间：2020-10-11 00:42:04。
 
 ## 复写统计
 
@@ -25,7 +25,7 @@
 
 ### QuantumultX 
 实时版：
-https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf
+https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/QuantumultX/Advertising/Advertising.conf
 
 稳定版：
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/master/rewrite/QuantumultX/Advertising/Advertising.conf
