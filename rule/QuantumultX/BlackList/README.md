@@ -1,97 +1,99 @@
-# ºÚÃûµ¥
+# é»‘åå•
 
-## Ç°ÑÔ
+## å‰è¨€
 
-±¾ÏîÄ¿µÄºÚÃûµ¥·ÖÁ÷¹æÔòÓÉÅÀ³æ³ÌĞò×Ô¶¯Î¬»¤¡£
+æœ¬é¡¹ç›®çš„é»‘åå•åˆ†æµè§„åˆ™ç”±çˆ¬è™«ç¨‹åºè‡ªåŠ¨ç»´æŠ¤ã€‚
 
-¶¨Ê±ÅÀÈ¡»¥ÁªÍøÉÏ¿ªÔ´µÄºÚÃûµ¥·ÖÁ÷¹æÔò£¬½«Æä½øĞĞÇåÏ´¡¢È¥ÖØ¡¢ºÏ²¢¡¢ÓÅ»¯ºó£¬ĞÎ³Éµ¥Ò»µÄ·ÖÁ÷¹æÔòÎÄ¼ş£¬Ö¼ÔÚ½â¾öÒıÓÃ´óÁ¿Íâ²¿¹æÔòÔì³É¹æÔòÖØ¸´µÄÎÊÌâ¡£
+å®šæ—¶çˆ¬å–äº’è”ç½‘ä¸Šå¼€æºçš„é»‘åå•åˆ†æµè§„åˆ™ï¼Œå°†å…¶è¿›è¡Œæ¸…æ´—ã€å»é‡ã€åˆå¹¶ã€ä¼˜åŒ–åï¼Œå½¢æˆå•ä¸€çš„åˆ†æµè§„åˆ™æ–‡ä»¶ï¼Œæ—¨åœ¨è§£å†³å¼•ç”¨å¤§é‡å¤–éƒ¨è§„åˆ™é€ æˆè§„åˆ™é‡å¤çš„é—®é¢˜ã€‚
 
 
-×îºó¼ì²éÊ±¼ä£º2020-10-11 10:16:55¡£
+æœ€åæ£€æŸ¥æ—¶é—´ï¼š2020-10-11 11:06:38ã€‚
 
-## ¹æÔòÍ³¼Æ
+## è§„åˆ™ç»Ÿè®¡
 
-×Ü¼Æ¹æÔò£º778 Ìõ¡£
+æ€»è®¡è§„åˆ™ï¼š778 æ¡ã€‚
 
-¸÷ÀàĞÍ¹æÔòÍ³¼Æ£º
+å„ç±»å‹è§„åˆ™ç»Ÿè®¡ï¼š
 
-| ÀàĞÍ | ÊıÁ¿(Ìõ) |
+| ç±»å‹ | æ•°é‡(æ¡) |
 | ---- | ---- |
 | DOMAIN | 6 |
 | DOMAIN-KEYWORD | 12 |
 | DOMAIN-SUFFIX | 697 |
 | IP-CIDR | 60 |
 | USER-AGENT | 3 |
-## ÖØ¸´Í³¼Æ
+## é‡å¤ç»Ÿè®¡
 
-ºÚÃûµ¥·ÖÁ÷¹æÔò£¬Óë±¾ÏîÄ¿ÆäËû·ÖÁ÷¹æÔòÖØ¸´Çé¿öÍ³¼Æ¡£
+é»‘åå•åˆ†æµè§„åˆ™ï¼Œä¸æœ¬é¡¹ç›®å…¶ä»–åˆ†æµè§„åˆ™é‡å¤æƒ…å†µç»Ÿè®¡ã€‚
 
-| Ãû³Æ | ÊıÁ¿ | ÖØ¸´ | ÖØºÏ¶È |
+ç‚¹å‡»é‡å¤æ•°é‡å¯ä»¥æŸ¥çœ‹é‡å¤è§„åˆ™æ˜ç»†ã€‚
+
+| åç§° | æ•°é‡ | é‡å¤ | é‡åˆåº¦ |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156173   | 24   |   0.02%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | 11   |   0.01%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | 12   |   2.02%  |
-|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 64   | 37   |   57.81%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | 3   |   21.43%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 31   | 4   |   12.90%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | 3   |   6.12%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews)    | 9   | 1   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 6   | 6   |   100.00%  |
-|  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloudflare)    | 15   | 1   |   6.67%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download)    | 7   | 1   |   14.29%  |
-|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook)    | 25   | 6   |   24.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | 236   |   28.03%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | 10   |   5.21%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spotify)    | 8   | 1   |   12.50%  |
-|  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight)    | 2   | 1   |   50.00%  |
-|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 8   | 7   |   87.50%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | 772   |   99.87%  |
-## ÅäÖÃËµÃ÷
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156173   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Advertising.list)   |   0.02%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AdvertisingLite.list)   |   0.01%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/China.list)   |   2.02%  |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 64   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Google.list)   |   57.81%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Youtube.list)   |   21.43%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 31   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Microsoft.list)   |   12.90%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Apple.list)   |   6.12%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AppleNews.list)   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/AppleBlock.list)   |   100.00%  |
+|  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Cloudflare)    | 15   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Cloudflare.list)   |   6.67%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Download.list)   |   14.29%  |
+|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook)    | 25   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Facebook.list)   |   24.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Global.list)   |   28.03%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/GlobalMedia.list)   |   5.21%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spotify)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Spotify.list)   |   12.50%  |
+|  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/TestFlight.list)   |   50.00%  |
+|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Twitter.list)   |   87.50%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [772](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList/Repeat/Proxy.list)   |   99.87%  |
+## é…ç½®è¯´æ˜
 
-ÊµÊ±°æ£ºÅÀ³æ³ÌĞò¶¨Ê±¸üĞÂ£¬¸üĞÂÆµÂÊ¸ß£¬ÄÜ¾¡¿ìÍ¬²½Êı¾İÔ´±ä»¯
+å®æ—¶ç‰ˆï¼šçˆ¬è™«ç¨‹åºå®šæ—¶æ›´æ–°ï¼Œæ›´æ–°é¢‘ç‡é«˜ï¼Œèƒ½å°½å¿«åŒæ­¥æ•°æ®æºå˜åŒ–
 
-ÎÈ¶¨°æ£º²»¶¨Ê±ÊÖ¶¯¸üĞÂ£¬¸üĞÂÆµÂÊµÍ£¬ÎÈ¶¨ĞÔºÃ
+ç¨³å®šç‰ˆï¼šä¸å®šæ—¶æ‰‹åŠ¨æ›´æ–°ï¼Œæ›´æ–°é¢‘ç‡ä½ï¼Œç¨³å®šæ€§å¥½
 
 ### QuantumultX 
-ÊµÊ±°æ£º
+å®æ—¶ç‰ˆï¼š
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/BlackList/BlackList.list
 
-ÎÈ¶¨°æ£º
+ç¨³å®šç‰ˆï¼š
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/BlackList/BlackList.list
 
-## Êı¾İÀ´Ô´
+## æ•°æ®æ¥æº
 
-±¾ÏîÄ¿µÄºÚÃûµ¥·ÖÁ÷¹æÔòµÄÊı¾İÀ´×ÔÒÔÏÂÁ´½Ó£¬Í¨³£ÒÑº­¸ÇËùÓĞÊı¾İÀ´Ô´µÄ·ÖÁ÷¹æÔò¡£Èç¹ûÄãÕıÔÚÊ¹ÓÃÕâĞ©·ÖÁ÷¹æÔò£¬ÇëÏÈÉ¾³ıºóÔÙÊ¹ÓÃ±¾ÏîÄ¿µÄºÚÃûµ¥·ÖÁ÷¹æÔò£¬ÒÔÃâÔì³É¹æÔòÖØ¸´¡£
+æœ¬é¡¹ç›®çš„é»‘åå•åˆ†æµè§„åˆ™çš„æ•°æ®æ¥è‡ªä»¥ä¸‹é“¾æ¥ï¼Œé€šå¸¸å·²æ¶µç›–æ‰€æœ‰æ•°æ®æ¥æºçš„åˆ†æµè§„åˆ™ã€‚å¦‚æœä½ æ­£åœ¨ä½¿ç”¨è¿™äº›åˆ†æµè§„åˆ™ï¼Œè¯·å…ˆåˆ é™¤åå†ä½¿ç”¨æœ¬é¡¹ç›®çš„é»‘åå•åˆ†æµè§„åˆ™ï¼Œä»¥å…é€ æˆè§„åˆ™é‡å¤ã€‚
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/BlackList/BlackList.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/AppleBlock/AppleBlock.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Proxy.list
 
 
-¸ĞĞ»ÒÔÉÏ·ÖÁ÷¹æÔò×÷ÕßµÄĞÁÇÚ¸¶³ö£¨ÅÅÃû²»·ÖÏÈºó£©¡£
+æ„Ÿè°¢ä»¥ä¸Šåˆ†æµè§„åˆ™ä½œè€…çš„è¾›å‹¤ä»˜å‡ºï¼ˆæ’åä¸åˆ†å…ˆåï¼‰ã€‚
 
-Èç¹ûÄãÓĞ¸üºÃµÄ·ÖÁ÷¹æÔò£¬»¶Ó­Ìá½»¸øÎÒ£¬ÎÒ»á½«Ëü¼Óµ½Êı¾İÔ´ÖĞ¼ÌĞøÍêÉÆ¡£
+å¦‚æœä½ æœ‰æ›´å¥½çš„åˆ†æµè§„åˆ™ï¼Œæ¬¢è¿æäº¤ç»™æˆ‘ï¼Œæˆ‘ä¼šå°†å®ƒåŠ åˆ°æ•°æ®æºä¸­ç»§ç»­å®Œå–„ã€‚
 
-## ×îºó
+## æœ€å
 
-### ÕıÔò¹ıÂË
+### æ­£åˆ™è¿‡æ»¤
 
-ÅÀ³æ³ÌĞòÔÚÇåÏ´Ô­Ê¼¹æÔòÊı¾İÊ±£¬¿É¸ù¾İÕıÔò¶¨Ïò¹ıÂË¹æÔò£¬ÒÔ´ïµ½±£ÁôÌØ¶¨¹æÔòµÄÄ¿µÄ¡£¾­¹ıÕıÔò¹ıÂËµÄ¹æÔò£¬ÎŞ·¨100%º­¸ÇÔ­Ê¼¹æÔòÊı¾İ£¬ÇëÖªÏ¤¡£
+çˆ¬è™«ç¨‹åºåœ¨æ¸…æ´—åŸå§‹è§„åˆ™æ•°æ®æ—¶ï¼Œå¯æ ¹æ®æ­£åˆ™å®šå‘è¿‡æ»¤è§„åˆ™ï¼Œä»¥è¾¾åˆ°ä¿ç•™ç‰¹å®šè§„åˆ™çš„ç›®çš„ã€‚ç»è¿‡æ­£åˆ™è¿‡æ»¤çš„è§„åˆ™ï¼Œæ— æ³•100%æ¶µç›–åŸå§‹è§„åˆ™æ•°æ®ï¼Œè¯·çŸ¥æ‚‰ã€‚
 
-### ºÚÃûµ¥
+### é»‘åå•
 
-ÅÀ³æ³ÌĞòÄÚÖÃ²¿·Ö¹æÔòºÚÃûµ¥£¬ÔÚ¶ÔÔ­Ê¼Êı¾İ½øĞĞÇåÏ´Ê±£¬×Ô¶¯½«¿ÉÄÜÒıÆğÒì³£µÄºÚÃûµ¥¹æÔòÈ¥³ı¡£¾­¹ıºÚÃûµ¥È¥³ıµÄ¹æÔò£¬ÎŞ·¨100%º­¸ÇÔ­Ê¼¹æÔòÊı¾İ£¬ÇëÖªÏ¤¡£
+çˆ¬è™«ç¨‹åºå†…ç½®éƒ¨åˆ†è§„åˆ™é»‘åå•ï¼Œåœ¨å¯¹åŸå§‹æ•°æ®è¿›è¡Œæ¸…æ´—æ—¶ï¼Œè‡ªåŠ¨å°†å¯èƒ½å¼•èµ·å¼‚å¸¸çš„é»‘åå•è§„åˆ™å»é™¤ã€‚ç»è¿‡é»‘åå•å»é™¤çš„è§„åˆ™ï¼Œæ— æ³•100%æ¶µç›–åŸå§‹è§„åˆ™æ•°æ®ï¼Œè¯·çŸ¥æ‚‰ã€‚
 
-### ÍêÉÆ¹æÔò
+### å®Œå–„è§„åˆ™
 
-Èç¹ûÄã£º
+å¦‚æœä½ ï¼š
 
-1. ÓĞ¸üÓÅµÄÔ­Ê¼¹æÔòÊı¾İ
-2. ÓĞ¸ü¶àµÄºÚÃûµ¥¹æÔòÊı¾İ
-3. ÓĞ¸üºÃµÄÓÅ»¯½¨Òé
-4. ÔÚÊ¹ÓÃ·ÖÁ÷¹æÔòÊ±³öÏÖÒì³£
-5. ÓĞÆäËûÎÊÌâ
+1. æœ‰æ›´ä¼˜çš„åŸå§‹è§„åˆ™æ•°æ®
+2. æœ‰æ›´å¤šçš„é»‘åå•è§„åˆ™æ•°æ®
+3. æœ‰æ›´å¥½çš„ä¼˜åŒ–å»ºè®®
+4. åœ¨ä½¿ç”¨åˆ†æµè§„åˆ™æ—¶å‡ºç°å¼‚å¸¸
+5. æœ‰å…¶ä»–é—®é¢˜
 
-»¶Ó­Í¨¹ı[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)Ìá½»·´À¡£¬¹²Í¬ÍêÉÆ±¾ÏîÄ¿µÄºÚÃûµ¥·ÖÁ÷¹æÔò¡£
+æ¬¢è¿é€šè¿‡[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)æäº¤åé¦ˆï¼Œå…±åŒå®Œå–„æœ¬é¡¹ç›®çš„é»‘åå•åˆ†æµè§„åˆ™ã€‚

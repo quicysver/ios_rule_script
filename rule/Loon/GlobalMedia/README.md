@@ -1,91 +1,93 @@
 # GlobalMedia
 
-## Ç°ÑÔ
+## å‰è¨€
 
-±¾ÏîÄ¿µÄGlobalMedia·ÖÁ÷¹æÔòÓÉÅÀ³æ³ÌĞò×Ô¶¯Î¬»¤¡£
+æœ¬é¡¹ç›®çš„GlobalMediaåˆ†æµè§„åˆ™ç”±çˆ¬è™«ç¨‹åºè‡ªåŠ¨ç»´æŠ¤ã€‚
 
-¶¨Ê±ÅÀÈ¡»¥ÁªÍøÉÏ¿ªÔ´µÄGlobalMedia·ÖÁ÷¹æÔò£¬½«Æä½øĞĞÇåÏ´¡¢È¥ÖØ¡¢ºÏ²¢¡¢ÓÅ»¯ºó£¬ĞÎ³Éµ¥Ò»µÄ·ÖÁ÷¹æÔòÎÄ¼ş£¬Ö¼ÔÚ½â¾öÒıÓÃ´óÁ¿Íâ²¿¹æÔòÔì³É¹æÔòÖØ¸´µÄÎÊÌâ¡£
+å®šæ—¶çˆ¬å–äº’è”ç½‘ä¸Šå¼€æºçš„GlobalMediaåˆ†æµè§„åˆ™ï¼Œå°†å…¶è¿›è¡Œæ¸…æ´—ã€å»é‡ã€åˆå¹¶ã€ä¼˜åŒ–åï¼Œå½¢æˆå•ä¸€çš„åˆ†æµè§„åˆ™æ–‡ä»¶ï¼Œæ—¨åœ¨è§£å†³å¼•ç”¨å¤§é‡å¤–éƒ¨è§„åˆ™é€ æˆè§„åˆ™é‡å¤çš„é—®é¢˜ã€‚
 
 
-×îºó¼ì²éÊ±¼ä£º2020-10-11 10:16:57¡£
+æœ€åæ£€æŸ¥æ—¶é—´ï¼š2020-10-11 11:06:40ã€‚
 
-## ¹æÔòÍ³¼Æ
+## è§„åˆ™ç»Ÿè®¡
 
-×Ü¼Æ¹æÔò£º192 Ìõ¡£
+æ€»è®¡è§„åˆ™ï¼š192 æ¡ã€‚
 
-¸÷ÀàĞÍ¹æÔòÍ³¼Æ£º
+å„ç±»å‹è§„åˆ™ç»Ÿè®¡ï¼š
 
-| ÀàĞÍ | ÊıÁ¿(Ìõ) |
+| ç±»å‹ | æ•°é‡(æ¡) |
 | ---- | ---- |
 | DOMAIN | 37 |
 | DOMAIN-KEYWORD | 6 |
 | DOMAIN-SUFFIX | 98 |
 | IP-CIDR | 15 |
 | USER-AGENT | 36 |
-## ÖØ¸´Í³¼Æ
+## é‡å¤ç»Ÿè®¡
 
-GlobalMedia·ÖÁ÷¹æÔò£¬Óë±¾ÏîÄ¿ÆäËû·ÖÁ÷¹æÔòÖØ¸´Çé¿öÍ³¼Æ¡£
+GlobalMediaåˆ†æµè§„åˆ™ï¼Œä¸æœ¬é¡¹ç›®å…¶ä»–åˆ†æµè§„åˆ™é‡å¤æƒ…å†µç»Ÿè®¡ã€‚
 
-| Ãû³Æ | ÊıÁ¿ | ÖØ¸´ | ÖØºÏ¶È |
+ç‚¹å‡»é‡å¤æ•°é‡å¯ä»¥æŸ¥çœ‹é‡å¤è§„åˆ™æ˜ç»†ã€‚
+
+| åç§° | æ•°é‡ | é‡å¤ | é‡åˆåº¦ |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156173   | 1   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | 1   |   0.00%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | 10   |   1.29%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 14   | 7   |   50.00%  |
-|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest)    | 5   | 1   |   20.00%  |
-|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix)    | 34   | 34   |   100.00%  |
-|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Pornhub)    | 4   | 4   |   100.00%  |
-|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | 5   |   100.00%  |
-|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Disney)    | 6   | 6   |   100.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | 186   |   22.09%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify)    | 8   | 7   |   87.50%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 773   | 10   |   1.29%  |
-## ÅäÖÃËµÃ÷
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156173   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/BlackList.list)   |   1.29%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 14   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Youtube.list)   |   50.00%  |
+|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Speedtest.list)   |   20.00%  |
+|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix)    | 34   | [34](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Netflix.list)   |   100.00%  |
+|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Pornhub)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Pornhub.list)   |   100.00%  |
+|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Bahamut.list)   |   100.00%  |
+|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Disney)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Disney.list)   |   100.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [186](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Global.list)   |   22.09%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Spotify.list)   |   87.50%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 773   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia/Repeat/Proxy.list)   |   1.29%  |
+## é…ç½®è¯´æ˜
 
-ÊµÊ±°æ£ºÅÀ³æ³ÌĞò¶¨Ê±¸üĞÂ£¬¸üĞÂÆµÂÊ¸ß£¬ÄÜ¾¡¿ìÍ¬²½Êı¾İÔ´±ä»¯
+å®æ—¶ç‰ˆï¼šçˆ¬è™«ç¨‹åºå®šæ—¶æ›´æ–°ï¼Œæ›´æ–°é¢‘ç‡é«˜ï¼Œèƒ½å°½å¿«åŒæ­¥æ•°æ®æºå˜åŒ–
 
-ÎÈ¶¨°æ£º²»¶¨Ê±ÊÖ¶¯¸üĞÂ£¬¸üĞÂÆµÂÊµÍ£¬ÎÈ¶¨ĞÔºÃ
+ç¨³å®šç‰ˆï¼šä¸å®šæ—¶æ‰‹åŠ¨æ›´æ–°ï¼Œæ›´æ–°é¢‘ç‡ä½ï¼Œç¨³å®šæ€§å¥½
 
 ### Loon 
-ÊµÊ±°æ£º
+å®æ—¶ç‰ˆï¼š
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Loon/GlobalMedia/GlobalMedia.list
 
-ÎÈ¶¨°æ£º
+ç¨³å®šç‰ˆï¼š
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon/GlobalMedia/GlobalMedia.list
 
-## Êı¾İÀ´Ô´
+## æ•°æ®æ¥æº
 
-±¾ÏîÄ¿µÄGlobalMedia·ÖÁ÷¹æÔòµÄÊı¾İÀ´×ÔÒÔÏÂÁ´½Ó£¬Í¨³£ÒÑº­¸ÇËùÓĞÊı¾İÀ´Ô´µÄ·ÖÁ÷¹æÔò¡£Èç¹ûÄãÕıÔÚÊ¹ÓÃÕâĞ©·ÖÁ÷¹æÔò£¬ÇëÏÈÉ¾³ıºóÔÙÊ¹ÓÃ±¾ÏîÄ¿µÄGlobalMedia·ÖÁ÷¹æÔò£¬ÒÔÃâÔì³É¹æÔòÖØ¸´¡£
+æœ¬é¡¹ç›®çš„GlobalMediaåˆ†æµè§„åˆ™çš„æ•°æ®æ¥è‡ªä»¥ä¸‹é“¾æ¥ï¼Œé€šå¸¸å·²æ¶µç›–æ‰€æœ‰æ•°æ®æ¥æºçš„åˆ†æµè§„åˆ™ã€‚å¦‚æœä½ æ­£åœ¨ä½¿ç”¨è¿™äº›åˆ†æµè§„åˆ™ï¼Œè¯·å…ˆåˆ é™¤åå†ä½¿ç”¨æœ¬é¡¹ç›®çš„GlobalMediaåˆ†æµè§„åˆ™ï¼Œä»¥å…é€ æˆè§„åˆ™é‡å¤ã€‚
 
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
 
 
-¸ĞĞ»ÒÔÉÏ·ÖÁ÷¹æÔò×÷ÕßµÄĞÁÇÚ¸¶³ö£¨ÅÅÃû²»·ÖÏÈºó£©¡£
+æ„Ÿè°¢ä»¥ä¸Šåˆ†æµè§„åˆ™ä½œè€…çš„è¾›å‹¤ä»˜å‡ºï¼ˆæ’åä¸åˆ†å…ˆåï¼‰ã€‚
 
-Èç¹ûÄãÓĞ¸üºÃµÄ·ÖÁ÷¹æÔò£¬»¶Ó­Ìá½»¸øÎÒ£¬ÎÒ»á½«Ëü¼Óµ½Êı¾İÔ´ÖĞ¼ÌĞøÍêÉÆ¡£
+å¦‚æœä½ æœ‰æ›´å¥½çš„åˆ†æµè§„åˆ™ï¼Œæ¬¢è¿æäº¤ç»™æˆ‘ï¼Œæˆ‘ä¼šå°†å®ƒåŠ åˆ°æ•°æ®æºä¸­ç»§ç»­å®Œå–„ã€‚
 
-## ×îºó
+## æœ€å
 
-### ÕıÔò¹ıÂË
+### æ­£åˆ™è¿‡æ»¤
 
-ÅÀ³æ³ÌĞòÔÚÇåÏ´Ô­Ê¼¹æÔòÊı¾İÊ±£¬¿É¸ù¾İÕıÔò¶¨Ïò¹ıÂË¹æÔò£¬ÒÔ´ïµ½±£ÁôÌØ¶¨¹æÔòµÄÄ¿µÄ¡£¾­¹ıÕıÔò¹ıÂËµÄ¹æÔò£¬ÎŞ·¨100%º­¸ÇÔ­Ê¼¹æÔòÊı¾İ£¬ÇëÖªÏ¤¡£
+çˆ¬è™«ç¨‹åºåœ¨æ¸…æ´—åŸå§‹è§„åˆ™æ•°æ®æ—¶ï¼Œå¯æ ¹æ®æ­£åˆ™å®šå‘è¿‡æ»¤è§„åˆ™ï¼Œä»¥è¾¾åˆ°ä¿ç•™ç‰¹å®šè§„åˆ™çš„ç›®çš„ã€‚ç»è¿‡æ­£åˆ™è¿‡æ»¤çš„è§„åˆ™ï¼Œæ— æ³•100%æ¶µç›–åŸå§‹è§„åˆ™æ•°æ®ï¼Œè¯·çŸ¥æ‚‰ã€‚
 
-### ºÚÃûµ¥
+### é»‘åå•
 
-ÅÀ³æ³ÌĞòÄÚÖÃ²¿·Ö¹æÔòºÚÃûµ¥£¬ÔÚ¶ÔÔ­Ê¼Êı¾İ½øĞĞÇåÏ´Ê±£¬×Ô¶¯½«¿ÉÄÜÒıÆğÒì³£µÄºÚÃûµ¥¹æÔòÈ¥³ı¡£¾­¹ıºÚÃûµ¥È¥³ıµÄ¹æÔò£¬ÎŞ·¨100%º­¸ÇÔ­Ê¼¹æÔòÊı¾İ£¬ÇëÖªÏ¤¡£
+çˆ¬è™«ç¨‹åºå†…ç½®éƒ¨åˆ†è§„åˆ™é»‘åå•ï¼Œåœ¨å¯¹åŸå§‹æ•°æ®è¿›è¡Œæ¸…æ´—æ—¶ï¼Œè‡ªåŠ¨å°†å¯èƒ½å¼•èµ·å¼‚å¸¸çš„é»‘åå•è§„åˆ™å»é™¤ã€‚ç»è¿‡é»‘åå•å»é™¤çš„è§„åˆ™ï¼Œæ— æ³•100%æ¶µç›–åŸå§‹è§„åˆ™æ•°æ®ï¼Œè¯·çŸ¥æ‚‰ã€‚
 
-### ÍêÉÆ¹æÔò
+### å®Œå–„è§„åˆ™
 
-Èç¹ûÄã£º
+å¦‚æœä½ ï¼š
 
-1. ÓĞ¸üÓÅµÄÔ­Ê¼¹æÔòÊı¾İ
-2. ÓĞ¸ü¶àµÄºÚÃûµ¥¹æÔòÊı¾İ
-3. ÓĞ¸üºÃµÄÓÅ»¯½¨Òé
-4. ÔÚÊ¹ÓÃ·ÖÁ÷¹æÔòÊ±³öÏÖÒì³£
-5. ÓĞÆäËûÎÊÌâ
+1. æœ‰æ›´ä¼˜çš„åŸå§‹è§„åˆ™æ•°æ®
+2. æœ‰æ›´å¤šçš„é»‘åå•è§„åˆ™æ•°æ®
+3. æœ‰æ›´å¥½çš„ä¼˜åŒ–å»ºè®®
+4. åœ¨ä½¿ç”¨åˆ†æµè§„åˆ™æ—¶å‡ºç°å¼‚å¸¸
+5. æœ‰å…¶ä»–é—®é¢˜
 
-»¶Ó­Í¨¹ı[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)Ìá½»·´À¡£¬¹²Í¬ÍêÉÆ±¾ÏîÄ¿µÄGlobalMedia·ÖÁ÷¹æÔò¡£
+æ¬¢è¿é€šè¿‡[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)æäº¤åé¦ˆï¼Œå…±åŒå®Œå–„æœ¬é¡¹ç›®çš„GlobalMediaåˆ†æµè§„åˆ™ã€‚

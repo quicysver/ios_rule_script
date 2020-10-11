@@ -1,76 +1,78 @@
 # Pornhub
 
-## ǰ��
+## 前言
 
-����Ŀ��Pornhub������������������Զ�ά����
+本项目的Pornhub分流规则由爬虫程序自动维护。
 
-��ʱ��ȡ�������Ͽ�Դ��Pornhub�������򣬽��������ϴ��ȥ�ء��ϲ����Ż����γɵ�һ�ķ��������ļ���ּ�ڽ�����ô����ⲿ������ɹ����ظ������⡣
+定时爬取互联网上开源的Pornhub分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-�����ʱ�䣺2020-10-11 10:16:56��
+最后检查时间：2020-10-11 11:06:39。
 
-## ����ͳ��
+## 规则统计
 
-�ܼƹ���4 ����
+总计规则：4 条。
 
-�����͹���ͳ�ƣ�
+各类型规则统计：
 
-| ���� | ����(��) |
+| 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-SUFFIX | 4 |
-## �ظ�ͳ��
+## 重复统计
 
-Pornhub���������뱾��Ŀ�������������ظ����ͳ�ơ�
+Pornhub分流规则，与本项目其他分流规则重复情况统计。
 
-| ���� | ���� | �ظ� | �غ϶� |
+点击重复数量可以查看重复规则明细。
+
+| 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | 4   |   0.48%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | 4   |   2.08%  |
-## ����˵��
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Pornhub/Repeat/Global.list)   |   0.48%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Pornhub/Repeat/GlobalMedia.list)   |   2.08%  |
+## 配置说明
 
-ʵʱ�棺�������ʱ���£�����Ƶ�ʸߣ��ܾ���ͬ������Դ�仯
+实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
 
-�ȶ��棺����ʱ�ֶ����£�����Ƶ�ʵͣ��ȶ��Ժ�
+稳定版：不定时手动更新，更新频率低，稳定性好
 
 ### Surge 
-ʵʱ�棺
+实时版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/Pornhub/Pornhub.list
 
-�ȶ��棺
+稳定版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/Pornhub/Pornhub.list
 
-## ������Դ
+## 数据来源
 
-����Ŀ��Pornhub������������������������ӣ�ͨ���Ѻ�������������Դ�ķ����������������ʹ����Щ������������ɾ������ʹ�ñ���Ŀ��Pornhub��������������ɹ����ظ���
+本项目的Pornhub分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的Pornhub分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/Media/Pornhub.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Pornhub.list
 
 
-��л���Ϸ����������ߵ����ڸ��������������Ⱥ󣩡�
+感谢以上分流规则作者的辛勤付出（排名不分先后）。
 
-������и��õķ������򣬻�ӭ�ύ���ң��һὫ���ӵ�����Դ�м������ơ�
+如果你有更好的分流规则，欢迎提交给我，我会将它加到数据源中继续完善。
 
-## ���
+## 最后
 
-### �������
+### 正则过滤
 
-�����������ϴԭʼ��������ʱ���ɸ�����������˹����Դﵽ�����ض������Ŀ�ġ�����������˵Ĺ����޷�100%����ԭʼ�������ݣ���֪Ϥ��
+爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
 
-### ������
+### 黑名单
 
-����������ò��ֹ�����������ڶ�ԭʼ���ݽ�����ϴʱ���Զ������������쳣�ĺ���������ȥ��������������ȥ���Ĺ����޷�100%����ԭʼ�������ݣ���֪Ϥ��
+爬虫程序内置部分规则黑名单，在对原始数据进行清洗时，自动将可能引起异常的黑名单规则去除。经过黑名单去除的规则，无法100%涵盖原始规则数据，请知悉。
 
-### ���ƹ���
+### 完善规则
 
-����㣺
+如果你：
 
-1. �и��ŵ�ԭʼ��������
-2. �и���ĺ�������������
-3. �и��õ��Ż�����
-4. ��ʹ�÷�������ʱ�����쳣
-5. ����������
+1. 有更优的原始规则数据
+2. 有更多的黑名单规则数据
+3. 有更好的优化建议
+4. 在使用分流规则时出现异常
+5. 有其他问题
 
-��ӭͨ��[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)�ύ��������ͬ���Ʊ���Ŀ��Pornhub��������
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Pornhub分流规则。

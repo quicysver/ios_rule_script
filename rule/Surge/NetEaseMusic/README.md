@@ -1,78 +1,80 @@
-# ÍøÒ×ÔÆÒôÀÖ
+# ç½‘æ˜“äº‘éŸ³ä¹
 
-## Ç°ÑÔ
+## å‰è¨€
 
-±¾ÏîÄ¿µÄÍøÒ×ÔÆÒôÀÖ·ÖÁ÷¹æÔòÓÉÅÀ³æ³ÌÐò×Ô¶¯Î¬»¤¡£
+æœ¬é¡¹ç›®çš„ç½‘æ˜“äº‘éŸ³ä¹åˆ†æµè§„åˆ™ç”±çˆ¬è™«ç¨‹åºè‡ªåŠ¨ç»´æŠ¤ã€‚
 
-¶¨Ê±ÅÀÈ¡»¥ÁªÍøÉÏ¿ªÔ´µÄÍøÒ×ÔÆÒôÀÖ·ÖÁ÷¹æÔò£¬½«Æä½øÐÐÇåÏ´¡¢È¥ÖØ¡¢ºÏ²¢¡¢ÓÅ»¯ºó£¬ÐÎ³Éµ¥Ò»µÄ·ÖÁ÷¹æÔòÎÄ¼þ£¬Ö¼ÔÚ½â¾öÒýÓÃ´óÁ¿Íâ²¿¹æÔòÔì³É¹æÔòÖØ¸´µÄÎÊÌâ¡£
+å®šæ—¶çˆ¬å–äº’è”ç½‘ä¸Šå¼€æºçš„ç½‘æ˜“äº‘éŸ³ä¹åˆ†æµè§„åˆ™ï¼Œå°†å…¶è¿›è¡Œæ¸…æ´—ã€åŽ»é‡ã€åˆå¹¶ã€ä¼˜åŒ–åŽï¼Œå½¢æˆå•ä¸€çš„åˆ†æµè§„åˆ™æ–‡ä»¶ï¼Œæ—¨åœ¨è§£å†³å¼•ç”¨å¤§é‡å¤–éƒ¨è§„åˆ™é€ æˆè§„åˆ™é‡å¤çš„é—®é¢˜ã€‚
 
 
-×îºó¼ì²éÊ±¼ä£º2020-10-11 10:16:58¡£
+æœ€åŽæ£€æŸ¥æ—¶é—´ï¼š2020-10-11 11:06:41ã€‚
 
-## ¹æÔòÍ³¼Æ
+## è§„åˆ™ç»Ÿè®¡
 
-×Ü¼Æ¹æÔò£º41 Ìõ¡£
+æ€»è®¡è§„åˆ™ï¼š41 æ¡ã€‚
 
-¸÷ÀàÐÍ¹æÔòÍ³¼Æ£º
+å„ç±»åž‹è§„åˆ™ç»Ÿè®¡ï¼š
 
-| ÀàÐÍ | ÊýÁ¿(Ìõ) |
+| ç±»åž‹ | æ•°é‡(æ¡) |
 | ---- | ---- |
 | DOMAIN | 6 |
 | DOMAIN-SUFFIX | 10 |
 | IP-CIDR | 25 |
-## ÖØ¸´Í³¼Æ
+## é‡å¤ç»Ÿè®¡
 
-ÍøÒ×ÔÆÒôÀÖ·ÖÁ÷¹æÔò£¬Óë±¾ÏîÄ¿ÆäËû·ÖÁ÷¹æÔòÖØ¸´Çé¿öÍ³¼Æ¡£
+ç½‘æ˜“äº‘éŸ³ä¹åˆ†æµè§„åˆ™ï¼Œä¸Žæœ¬é¡¹ç›®å…¶ä»–åˆ†æµè§„åˆ™é‡å¤æƒ…å†µç»Ÿè®¡ã€‚
 
-| Ãû³Æ | ÊýÁ¿ | ÖØ¸´ | ÖØºÏ¶È |
+ç‚¹å‡»é‡å¤æ•°é‡å¯ä»¥æŸ¥çœ‹é‡å¤è§„åˆ™æ˜Žç»†ã€‚
+
+| åç§° | æ•°é‡ | é‡å¤ | é‡åˆåº¦ |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156173   | 1   |   0.00%  |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DomesticMedia)    | 77   | 2   |   2.60%  |
-## ÅäÖÃËµÃ÷
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156173   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/Advertising.list)   |   0.00%  |
+|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DomesticMedia)    | 77   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic/Repeat/DomesticMedia.list)   |   2.60%  |
+## é…ç½®è¯´æ˜Ž
 
-ÊµÊ±°æ£ºÅÀ³æ³ÌÐò¶¨Ê±¸üÐÂ£¬¸üÐÂÆµÂÊ¸ß£¬ÄÜ¾¡¿ìÍ¬²½Êý¾ÝÔ´±ä»¯
+å®žæ—¶ç‰ˆï¼šçˆ¬è™«ç¨‹åºå®šæ—¶æ›´æ–°ï¼Œæ›´æ–°é¢‘çŽ‡é«˜ï¼Œèƒ½å°½å¿«åŒæ­¥æ•°æ®æºå˜åŒ–
 
-ÎÈ¶¨°æ£º²»¶¨Ê±ÊÖ¶¯¸üÐÂ£¬¸üÐÂÆµÂÊµÍ£¬ÎÈ¶¨ÐÔºÃ
+ç¨³å®šç‰ˆï¼šä¸å®šæ—¶æ‰‹åŠ¨æ›´æ–°ï¼Œæ›´æ–°é¢‘çŽ‡ä½Žï¼Œç¨³å®šæ€§å¥½
 
 ### Surge 
-ÊµÊ±°æ£º
+å®žæ—¶ç‰ˆï¼š
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Surge/NetEaseMusic/NetEaseMusic.list
 
-ÎÈ¶¨°æ£º
+ç¨³å®šç‰ˆï¼š
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surge/NetEaseMusic/NetEaseMusic.list
 
-## Êý¾ÝÀ´Ô´
+## æ•°æ®æ¥æº
 
-±¾ÏîÄ¿µÄÍøÒ×ÔÆÒôÀÖ·ÖÁ÷¹æÔòµÄÊý¾ÝÀ´×ÔÒÔÏÂÁ´½Ó£¬Í¨³£ÒÑº­¸ÇËùÓÐÊý¾ÝÀ´Ô´µÄ·ÖÁ÷¹æÔò¡£Èç¹ûÄãÕýÔÚÊ¹ÓÃÕâÐ©·ÖÁ÷¹æÔò£¬ÇëÏÈÉ¾³ýºóÔÙÊ¹ÓÃ±¾ÏîÄ¿µÄÍøÒ×ÔÆÒôÀÖ·ÖÁ÷¹æÔò£¬ÒÔÃâÔì³É¹æÔòÖØ¸´¡£
+æœ¬é¡¹ç›®çš„ç½‘æ˜“äº‘éŸ³ä¹åˆ†æµè§„åˆ™çš„æ•°æ®æ¥è‡ªä»¥ä¸‹é“¾æŽ¥ï¼Œé€šå¸¸å·²æ¶µç›–æ‰€æœ‰æ•°æ®æ¥æºçš„åˆ†æµè§„åˆ™ã€‚å¦‚æžœä½ æ­£åœ¨ä½¿ç”¨è¿™äº›åˆ†æµè§„åˆ™ï¼Œè¯·å…ˆåˆ é™¤åŽå†ä½¿ç”¨æœ¬é¡¹ç›®çš„ç½‘æ˜“äº‘éŸ³ä¹åˆ†æµè§„åˆ™ï¼Œä»¥å…é€ æˆè§„åˆ™é‡å¤ã€‚
 
 - https://raw.githubusercontent.com/Mazetsz/ACL4SSR/master/Clash/NetEaseCloudMusic.list
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Netease%20Music.list
 
 
-¸ÐÐ»ÒÔÉÏ·ÖÁ÷¹æÔò×÷ÕßµÄÐÁÇÚ¸¶³ö£¨ÅÅÃû²»·ÖÏÈºó£©¡£
+æ„Ÿè°¢ä»¥ä¸Šåˆ†æµè§„åˆ™ä½œè€…çš„è¾›å‹¤ä»˜å‡ºï¼ˆæŽ’åä¸åˆ†å…ˆåŽï¼‰ã€‚
 
-Èç¹ûÄãÓÐ¸üºÃµÄ·ÖÁ÷¹æÔò£¬»¶Ó­Ìá½»¸øÎÒ£¬ÎÒ»á½«Ëü¼Óµ½Êý¾ÝÔ´ÖÐ¼ÌÐøÍêÉÆ¡£
+å¦‚æžœä½ æœ‰æ›´å¥½çš„åˆ†æµè§„åˆ™ï¼Œæ¬¢è¿Žæäº¤ç»™æˆ‘ï¼Œæˆ‘ä¼šå°†å®ƒåŠ åˆ°æ•°æ®æºä¸­ç»§ç»­å®Œå–„ã€‚
 
-## ×îºó
+## æœ€åŽ
 
-### ÕýÔò¹ýÂË
+### æ­£åˆ™è¿‡æ»¤
 
-ÅÀ³æ³ÌÐòÔÚÇåÏ´Ô­Ê¼¹æÔòÊý¾ÝÊ±£¬¿É¸ù¾ÝÕýÔò¶¨Ïò¹ýÂË¹æÔò£¬ÒÔ´ïµ½±£ÁôÌØ¶¨¹æÔòµÄÄ¿µÄ¡£¾­¹ýÕýÔò¹ýÂËµÄ¹æÔò£¬ÎÞ·¨100%º­¸ÇÔ­Ê¼¹æÔòÊý¾Ý£¬ÇëÖªÏ¤¡£
+çˆ¬è™«ç¨‹åºåœ¨æ¸…æ´—åŽŸå§‹è§„åˆ™æ•°æ®æ—¶ï¼Œå¯æ ¹æ®æ­£åˆ™å®šå‘è¿‡æ»¤è§„åˆ™ï¼Œä»¥è¾¾åˆ°ä¿ç•™ç‰¹å®šè§„åˆ™çš„ç›®çš„ã€‚ç»è¿‡æ­£åˆ™è¿‡æ»¤çš„è§„åˆ™ï¼Œæ— æ³•100%æ¶µç›–åŽŸå§‹è§„åˆ™æ•°æ®ï¼Œè¯·çŸ¥æ‚‰ã€‚
 
-### ºÚÃûµ¥
+### é»‘åå•
 
-ÅÀ³æ³ÌÐòÄÚÖÃ²¿·Ö¹æÔòºÚÃûµ¥£¬ÔÚ¶ÔÔ­Ê¼Êý¾Ý½øÐÐÇåÏ´Ê±£¬×Ô¶¯½«¿ÉÄÜÒýÆðÒì³£µÄºÚÃûµ¥¹æÔòÈ¥³ý¡£¾­¹ýºÚÃûµ¥È¥³ýµÄ¹æÔò£¬ÎÞ·¨100%º­¸ÇÔ­Ê¼¹æÔòÊý¾Ý£¬ÇëÖªÏ¤¡£
+çˆ¬è™«ç¨‹åºå†…ç½®éƒ¨åˆ†è§„åˆ™é»‘åå•ï¼Œåœ¨å¯¹åŽŸå§‹æ•°æ®è¿›è¡Œæ¸…æ´—æ—¶ï¼Œè‡ªåŠ¨å°†å¯èƒ½å¼•èµ·å¼‚å¸¸çš„é»‘åå•è§„åˆ™åŽ»é™¤ã€‚ç»è¿‡é»‘åå•åŽ»é™¤çš„è§„åˆ™ï¼Œæ— æ³•100%æ¶µç›–åŽŸå§‹è§„åˆ™æ•°æ®ï¼Œè¯·çŸ¥æ‚‰ã€‚
 
-### ÍêÉÆ¹æÔò
+### å®Œå–„è§„åˆ™
 
-Èç¹ûÄã£º
+å¦‚æžœä½ ï¼š
 
-1. ÓÐ¸üÓÅµÄÔ­Ê¼¹æÔòÊý¾Ý
-2. ÓÐ¸ü¶àµÄºÚÃûµ¥¹æÔòÊý¾Ý
-3. ÓÐ¸üºÃµÄÓÅ»¯½¨Òé
-4. ÔÚÊ¹ÓÃ·ÖÁ÷¹æÔòÊ±³öÏÖÒì³£
-5. ÓÐÆäËûÎÊÌâ
+1. æœ‰æ›´ä¼˜çš„åŽŸå§‹è§„åˆ™æ•°æ®
+2. æœ‰æ›´å¤šçš„é»‘åå•è§„åˆ™æ•°æ®
+3. æœ‰æ›´å¥½çš„ä¼˜åŒ–å»ºè®®
+4. åœ¨ä½¿ç”¨åˆ†æµè§„åˆ™æ—¶å‡ºçŽ°å¼‚å¸¸
+5. æœ‰å…¶ä»–é—®é¢˜
 
-»¶Ó­Í¨¹ý[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)Ìá½»·´À¡£¬¹²Í¬ÍêÉÆ±¾ÏîÄ¿µÄÍøÒ×ÔÆÒôÀÖ·ÖÁ÷¹æÔò¡£
+æ¬¢è¿Žé€šè¿‡[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)æäº¤åé¦ˆï¼Œå…±åŒå®Œå–„æœ¬é¡¹ç›®çš„ç½‘æ˜“äº‘éŸ³ä¹åˆ†æµè§„åˆ™ã€‚

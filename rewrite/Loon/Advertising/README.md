@@ -1,40 +1,40 @@
-# ȥ���
+# 去广告
 
-## ǰ��
+## 前言
 
-����Ŀ��ȥ��渴д��������������Զ�ά����
+本项目的去广告复写规则由爬虫程序自动维护。
 
-��ʱ��ȡ�������Ͽ�Դ��ȥ��渴д���򣬽��������ϴ��ȥ�ء��ϲ����Ż����γɵ�һ�ĸ�д�����ļ���ּ�ڽ�����ô����ⲿ������ɹ����ظ������⡣
+定时爬取互联网上开源的去广告复写规则，将其进行清洗、去重、合并、优化后，形成单一的复写规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
-����д����������κ�֪��ȥ������
+本复写插件不包含任何知乎去广告规则
 
 
-�����ʱ�䣺2020-10-11 10:17:08��
+最后检查时间：2020-10-11 11:06:54。
 
-## ��дͳ��
+## 复写统计
 
-| ���� | ����(��) |
+| 类型 | 数量(条) |
 | ---- | ---- |
 | MITM | 470 |
 | UrlRewrite | 866 |
-## ����˵��
+## 配置说明
 
-ʵʱ�棺�������ʱ���£�����Ƶ�ʸߣ��ܾ���ͬ������Դ�仯
+实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
 
-�ȶ��棺����ʱ�ֶ����£�����Ƶ�ʵͣ��ȶ��Ժ�
+稳定版：不定时手动更新，更新频率低，稳定性好
 
 ### Loon 
-ʵʱ�棺
+实时版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rewrite/Loon/Advertising/Advertising.plugin
 
-�ȶ��棺
+稳定版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Loon/Advertising/Advertising.plugin
 
-## ������Դ
+## 数据来源
 
-����Ŀ��ȥ��渴д��������������������ӣ�ͨ���Ѻ�������������Դ�ĸ�д�������������ʹ����Щ��д��������ɾ������ʹ�ñ���Ŀ��ȥ��渴д����������ɹ����ظ���
+本项目的去广告复写规则的数据来自以下链接，通常已涵盖所有数据来源的复写规则。如果你正在使用这些复写规则，请先删除后再使用本项目的去广告复写规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Module/RewriteRules.sgmodule
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rewrite/Advertising/advertising.sgmodule
@@ -47,38 +47,38 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Loon/Rewrite.conf
 
 
-��л���ϸ�д�������ߵ����ڸ��������������Ⱥ󣩡�
+感谢以上复写规则作者的辛勤付出（排名不分先后）。
 
-������и��õĸ�д���򣬻�ӭ�ύ���ң��һὫ���ӵ�����Դ�м������ơ�
+如果你有更好的复写规则，欢迎提交给我，我会将它加到数据源中继续完善。
 
-## ���
+## 最后
 
-### ����ϲ�
+### 正则合并
 
-������������ȫһ�����������ʽ����ȥ���⣬����ͨ���㷨�Խ�Ϊ���Ƶ��������ȥ�غϲ���Ŀǰ�㷨������������600�������Ƶ����򡣵���Ϊ�������ʽ�ĸ����ԣ��㷨�޷�100%��ȷ���������ظ����򣬲����������һЩ���Ƶ������ظ��������������ʹ���У��������ϵ��������ӭͨ��[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)�ύ������
+爬虫程序除对完全一样的正则表达式进行去重外，还会通过算法对较为相似的正则进行去重合并。目前算法初步初步过滤600多条相似的正则。但因为正则表达式的复杂性，算法无法100%精确过滤所有重复正则，并可能误过滤一些相似但并不重复的正则。如果你在使用中，发现以上的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈。
 
 ### MITM
 
-����������������Դ�е�MITM�������⣬ ����ͨ���㷨�����������Ʋ��������������ڲ�������Դ�п�����©��MITM������������Ϊ�������ʽ�ĸ����ԣ��㷨�޷�100%�������е���ȷ���������������ʹ���У�����������������������ӭͨ��[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)�ύ������
+爬虫程序除保留数据源中的MITM主机名外， 还会通过算法，根据正则反推部分主机名，用于补充数据源中可能遗漏的MITM主机名。但因为正则表达式的复杂性，算法无法100%反推所有的正确主机名。如果你在使用中，发现主机名错误的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈。
 
-���������⣬������򻹻�Բ����ظ�������������ȥ������ͬʱ����zhidao.baidu.com��*.baidu.com��������������zhidao.baidu.com�ᱻȥ����
+除正则反推外，爬虫程序还会对部分重复的主机名进行去除。如同时存在zhidao.baidu.com和*.baidu.com两个主机名，则zhidao.baidu.com会被去除。
 
-### �������
+### 正则过滤
 
-�����������ϴԭʼ��д����ʱ���ɸ�����������˹����Դﵽ�����ض���д��Ŀ�ġ�����������˵ĸ�д���޷�100%����ԭʼ��д���ݣ���֪Ϥ��
+爬虫程序在清洗原始复写数据时，可根据正则定向过滤规则，以达到保留特定复写的目的。经过正则过滤的复写，无法100%涵盖原始复写数据，请知悉。
 
-### ������
+### 黑名单
 
-����������ò��ָ�д���������ڶ�ԭʼ���ݽ�����ϴʱ���Զ������������쳣�ĺ�������дȥ��������������ȥ���ĸ�д���޷�100%����ԭʼ��д���ݣ���֪Ϥ��
+爬虫程序内置部分复写黑名单，在对原始数据进行清洗时，自动将可能引起异常的黑名单复写去除。经过黑名单去除的复写，无法100%涵盖原始复写数据，请知悉。
 
-### ���Ƹ�д
+### 完善复写
 
-����㣺
+如果你：
 
-1. �и��ŵ�ԭʼ��д����
-2. �и���ĺ�������д����
-3. �и��õ��Ż�����
-4. ��ʹ�ø�д����ʱ�����쳣
-5. ����������
+1. 有更优的原始复写数据
+2. 有更多的黑名单复写数据
+3. 有更好的优化建议
+4. 在使用复写规则时出现异常
+5. 有其他问题
 
-��ӭͨ��[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)�ύ��������ͬ���Ʊ���Ŀ��ȥ��渴д����
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告复写规则。

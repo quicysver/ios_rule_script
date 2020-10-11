@@ -1,79 +1,81 @@
-# ������
+# 爱奇艺
 
-## ǰ��
+## 前言
 
-����Ŀ�İ����շ�����������������Զ�ά����
+本项目的爱奇艺分流规则由爬虫程序自动维护。
 
-��ʱ��ȡ�������Ͽ�Դ�İ����շ������򣬽��������ϴ��ȥ�ء��ϲ����Ż����γɵ�һ�ķ��������ļ���ּ�ڽ�����ô����ⲿ������ɹ����ظ������⡣
+定时爬取互联网上开源的爱奇艺分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-�����ʱ�䣺2020-10-11 10:16:58��
+最后检查时间：2020-10-11 11:06:41。
 
-## ����ͳ��
+## 规则统计
 
-�ܼƹ���7 ����
+总计规则：7 条。
 
-�����͹���ͳ�ƣ�
+各类型规则统计：
 
-| ���� | ����(��) |
+| 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-KEYWORD | 1 |
 | DOMAIN-SUFFIX | 1 |
 | IP-CIDR | 3 |
 | USER-AGENT | 2 |
-## �ظ�ͳ��
+## 重复统计
 
-�����շ��������뱾��Ŀ�������������ظ����ͳ�ơ�
+爱奇艺分流规则，与本项目其他分流规则重复情况统计。
 
-| ���� | ���� | �ظ� | �غ϶� |
+点击重复数量可以查看重复规则明细。
+
+| 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DomesticMedia)    | 77   | 7   |   9.09%  |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | 7   |   25.00%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs)    | 6607   | 2   |   0.03%  |
-## ����˵��
+|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/DomesticMedia)    | 77   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi/Repeat/DomesticMedia.list)   |   9.09%  |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi/Repeat/AsianMedia.list)   |   25.00%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/iQiyi/Repeat/ChinaIPs.list)   |   0.03%  |
+## 配置说明
 
-ʵʱ�棺�������ʱ���£�����Ƶ�ʸߣ��ܾ���ͬ������Դ�仯
+实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
 
-�ȶ��棺����ʱ�ֶ����£�����Ƶ�ʵͣ��ȶ��Ժ�
+稳定版：不定时手动更新，更新频率低，稳定性好
 
 ### QuantumultX 
-ʵʱ�棺
+实时版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/QuantumultX/iQiyi/iQiyi.list
 
-�ȶ��棺
+稳定版：
 
 https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/QuantumultX/iQiyi/iQiyi.list
 
-## ������Դ
+## 数据来源
 
-����Ŀ�İ����շ�����������������������ӣ�ͨ���Ѻ�������������Դ�ķ����������������ʹ����Щ������������ɾ������ʹ�ñ���Ŀ�İ����շ�������������ɹ����ظ���
+本项目的爱奇艺分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的爱奇艺分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/iQiyi.list
 
 
-��л���Ϸ����������ߵ����ڸ��������������Ⱥ󣩡�
+感谢以上分流规则作者的辛勤付出（排名不分先后）。
 
-������и��õķ������򣬻�ӭ�ύ���ң��һὫ���ӵ�����Դ�м������ơ�
+如果你有更好的分流规则，欢迎提交给我，我会将它加到数据源中继续完善。
 
-## ���
+## 最后
 
-### �������
+### 正则过滤
 
-�����������ϴԭʼ��������ʱ���ɸ�����������˹����Դﵽ�����ض������Ŀ�ġ�����������˵Ĺ����޷�100%����ԭʼ�������ݣ���֪Ϥ��
+爬虫程序在清洗原始规则数据时，可根据正则定向过滤规则，以达到保留特定规则的目的。经过正则过滤的规则，无法100%涵盖原始规则数据，请知悉。
 
-### ������
+### 黑名单
 
-����������ò��ֹ�����������ڶ�ԭʼ���ݽ�����ϴʱ���Զ������������쳣�ĺ���������ȥ��������������ȥ���Ĺ����޷�100%����ԭʼ�������ݣ���֪Ϥ��
+爬虫程序内置部分规则黑名单，在对原始数据进行清洗时，自动将可能引起异常的黑名单规则去除。经过黑名单去除的规则，无法100%涵盖原始规则数据，请知悉。
 
-### ���ƹ���
+### 完善规则
 
-����㣺
+如果你：
 
-1. �и��ŵ�ԭʼ��������
-2. �и���ĺ�������������
-3. �и��õ��Ż�����
-4. ��ʹ�÷�������ʱ�����쳣
-5. ����������
+1. 有更优的原始规则数据
+2. 有更多的黑名单规则数据
+3. 有更好的优化建议
+4. 在使用分流规则时出现异常
+5. 有其他问题
 
-��ӭͨ��[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)�ύ��������ͬ���Ʊ���Ŀ�İ����շ�������
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的爱奇艺分流规则。
