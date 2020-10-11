@@ -1,7 +1,7 @@
 # China 与 Blizzard 共 3 条规则重复
-# 最后检查时间：2020-10-11 11:33:26
+# 最后检查时间：2020-10-11 11:52:52
 # Github: https://github.com/blackmatrix7/ios_rule_script
 # 重复规则明细：
-HOST,blzddist1-a.akamaihd.net
-HOST-SUFFIX,battle.net
-HOST-SUFFIX,blizzard.com
+DOMAIN,blzddist1-a.akamaihd.net
+DOMAIN-SUFFIX,battle.net
+DOMAIN-SUFFIX,blizzard.com

@@ -8,7 +8,7 @@
 
 不含有Apple News等国内无法使用的分流规则
 
-最后检查时间：2020-10-11 11:33:27。
+最后检查时间：2020-10-11 11:52:53。
 
 ## 规则统计
 
@@ -92,3 +92,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 5. 有其他问题
 
 欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的Apple分流规则。
+
+感谢
+
+[@zjcfynn](https://github.com/zjcfynn)
+
+提供规则数据及改进建议

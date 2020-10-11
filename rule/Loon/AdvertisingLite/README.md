@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则。
 
-最后检查时间：2020-10-11 11:33:24。
+最后检查时间：2020-10-11 11:52:51。
 
 ## 规则统计
 
@@ -111,3 +111,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 5. 有其他问题
 
 欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告精简版分流规则。
+
+感谢
+
+[@zjcfynn](https://github.com/zjcfynn)
+
+提供规则数据及改进建议

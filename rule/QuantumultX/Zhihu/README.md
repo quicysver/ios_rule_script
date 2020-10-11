@@ -8,7 +8,7 @@
 
 本分流规则，需要搭配 https://github.com/blackmatrix7/ios_rule_script/tree/master/script/zhihu 使用。
 
-最后检查时间：2020-10-11 11:33:29。
+最后检查时间：2020-10-11 11:52:55。
 
 ## 规则统计
 
@@ -77,3 +77,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 5. 有其他问题
 
 欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的知乎广告拦截分流规则。
+
+感谢
+
+[@zjcfynn](https://github.com/zjcfynn)
+
+提供规则数据及改进建议

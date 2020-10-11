@@ -1,5 +1,5 @@
 # Telegram 与 Global 共 16 条规则重复
-# 最后检查时间：2020-10-11 11:33:27
+# 最后检查时间：2020-10-11 11:52:54
 # Github: https://github.com/blackmatrix7/ios_rule_script
 # 重复规则明细：
 DOMAIN-SUFFIX,t.me
@@ -15,6 +15,6 @@ IP-CIDR,91.108.4.0/22,no-resolve
 IP-CIDR,91.108.56.0/22,no-resolve
 IP-CIDR,91.108.8.0/21,no-resolve
 IP-CIDR,91.108.8.0/22,no-resolve
-None,2001:67c:4e8::/48,no-resolve
-None,2001:b28:f23d::/48,no-resolve
-None,2001:b28:f23f::/48,no-resolve
+IP-CIDR6,2001:67c:4e8::/48,no-resolve
+IP-CIDR6,2001:b28:f23d::/48,no-resolve
+IP-CIDR6,2001:b28:f23f::/48,no-resolve
