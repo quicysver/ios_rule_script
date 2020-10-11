@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 11:06:41。
+最后检查时间：2020-10-11 11:33:29。
 
 ## 规则统计
 
@@ -26,7 +26,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DomesticMedia)    | 77   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs/Repeat/DomesticMedia.list)   |   2.60%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs/Repeat/ChinaMedia.list)   |   2.67%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs/Repeat/AsianMedia.list)   |   7.14%  |
 |  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi)    | 7   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs/Repeat/iQiyi.list)   |   28.57%  |
 ## 配置说明

@@ -7,7 +7,7 @@
 定时爬取互联网上开源的爱奇艺分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 11:06:41。
+最后检查时间：2020-10-11 11:33:29。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DomesticMedia)    | 77   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi/Repeat/DomesticMedia.list)   |   9.09%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi/Repeat/ChinaMedia.list)   |   9.33%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi/Repeat/AsianMedia.list)   |   25.00%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi/Repeat/ChinaIPs.list)   |   0.03%  |
 ## 配置说明

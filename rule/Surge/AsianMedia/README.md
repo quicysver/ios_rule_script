@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 11:06:41。
+最后检查时间：2020-10-11 11:33:29。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/China.list)   |   1.18%  |
 |  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/Bilibili.list)   |   100.00%  |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DomesticMedia)    | 77   | [28](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/DomesticMedia.list)   |   36.36%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/ChinaMedia.list)   |   33.33%  |
 |  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/ChinaIPs.list)   |   0.03%  |
 |  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/iQiyi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/iQiyi.list)   |   100.00%  |
 |  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia/Repeat/TencentVideo.list)   |   50.00%  |

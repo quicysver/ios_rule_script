@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Bilibili分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 11:06:40。
+最后检查时间：2020-10-11 11:33:27。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ Bilibili分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat/China.list)   |   1.01%  |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DomesticMedia)    | 77   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat/DomesticMedia.list)   |   16.88%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat/ChinaMedia.list)   |   17.33%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bilibili/Repeat/AsianMedia.list)   |   46.43%  |
 ## 配置说明
 

@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则。
 
-最后检查时间：2020-10-11 11:06:35。
+最后检查时间：2020-10-11 11:33:23。
 
 ## 规则统计
 
@@ -40,7 +40,7 @@
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/Global.list)   |   0.83%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/GlobalMedia.list)   |   0.52%  |
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Hijacking)    | 209   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/Hijacking.list)   |   100.00%  |
-|  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/DomesticMedia)    | 77   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/DomesticMedia.list)   |   1.30%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/ChinaMedia.list)   |   1.33%  |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Privacy)    | 28   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/Privacy.list)   |   32.14%  |
 |  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic)    | 41   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/NetEaseMusic.list)   |   2.44%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising/Repeat/Proxy.list)   |   3.10%  |
