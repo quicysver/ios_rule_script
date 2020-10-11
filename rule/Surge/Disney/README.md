@@ -7,7 +7,7 @@
 定时爬取互联网上开源的DisneyPlus分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-11 09:37:30。
+最后检查时间：2020-10-11 10:01:31。
 
 ## 规则统计
 
@@ -26,7 +26,7 @@ DisneyPlus分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 1385   | 6   |   0.43%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | 6   |   0.71%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | 6   |   3.12%  |
 ## 配置说明
 

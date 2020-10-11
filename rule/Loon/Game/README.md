@@ -8,7 +8,7 @@
 
 含有Steam、Blizzard、Discord等分流规则
 
-最后检查时间：2020-10-11 09:37:29。
+最后检查时间：2020-10-11 10:01:30。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@
 |  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam)    | 16   | 16   |   100.00%  |
 |  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard)    | 6   | 6   |   100.00%  |
 |  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord)    | 6   | 6   |   100.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1385   | 4   |   0.29%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | 4   |   0.48%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

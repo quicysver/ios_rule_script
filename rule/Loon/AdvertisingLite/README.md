@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则
 
-最后检查时间：2020-10-11 09:37:28。
+最后检查时间：2020-10-11 10:01:30。
 
 ## 规则统计
 
@@ -35,11 +35,12 @@
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | 11   |   1.41%  |
 |  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 14   | 1   |   7.14%  |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple)    | 49   | 1   |   2.04%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 1385   | 14   |   1.01%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | 3   |   0.36%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 192   | 1   |   0.52%  |
 |  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking)    | 209   | 209   |   100.00%  |
 |  [DomesticMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/DomesticMedia)    | 77   | 1   |   1.30%  |
 |  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Privacy)    | 28   | 9   |   32.14%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 773   | 11   |   1.42%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
