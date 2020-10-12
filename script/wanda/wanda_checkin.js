@@ -46,8 +46,11 @@ function sign(cookie, ts, checkVal, activityCode, date){
           if (obj.code === 1 && obj.data.isSign === true){
             resolve('🎉恭喜，签到成功！！')
           }
-          else if (obj.code === 26017){
+          else if (obj.code === 20001){
             resolve('🎉今日已签到过了，不要重复签到哦！！')
+          }
+          else if (obj.code === 20001 && obj.msg.indexOf('未登录')){
+            reject('❌签到失败，未登录或Cookie已过期，请查阅日志！');
           }
           else{
             magicJS.logError(`签到失败，响应异常：${data}`);
@@ -103,6 +106,10 @@ function signRecord(cookie, ts, checkVal, activityCode) {
           let obj = typeof data === 'string'? JSON.parse(data) : data;
           if (obj.code === 1){
             resolve([obj.data.totalMedal, obj.data.remainMedal])
+          }
+          else if  (obj.code === 20001){
+            magicJS.logError(`获取能量失败，未登录或Cookie过期，请查阅日志。`);
+            reject();
           }
           else{
             magicJS.logError(`获取能量失败，响应异常：${data}`);
@@ -208,11 +215,11 @@ function lottery(cookie, ts, checkVal, activityCode) {
       magicJS.logDebug(`checkVal:${checkVal}`);
       cookie['ts'] = ts;
       cookie['check'] = checkVal;
-      let [checkInErr, checkInStr] = await magicJS.attempt(magicJS.retry(sign, 3, 2000)(cookie, ts, checkVal, activityCode, magicJS.today()));
+      let [checkInErr, checkInStr] = await magicJS.attempt(magicJS.retry(sign, 1, 1000)(cookie, ts, checkVal, activityCode, magicJS.today()));
       let signRecordVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/getSignRecord.apiactivityCode=${activityCode}`);
       magicJS.logDebug(`signRecordVal:${signRecordVal}`);
       cookie['check'] = checkVal;
-      let [recordErr, [totalMedal, remainMedal]] = await magicJS.attempt(magicJS.retry(signRecord, 1, 1000)(cookie, ts, signRecordVal, activityCode));
+      let [recordErr, [totalMedal, remainMedal]] = await magicJS.attempt(magicJS.retry(signRecord, 1, 1000)(cookie, ts, signRecordVal, activityCode), [0, 0]);
       if (checkInErr){
         subTitle = checkInErr;
       }
