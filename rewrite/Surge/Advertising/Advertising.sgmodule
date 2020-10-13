@@ -1,7 +1,7 @@
 #!name=去广告
-#!desc=最后更新时间 2020-10-13 10:32:30
+#!desc=最后更新时间 2020-10-13 11:20:43
 #!system=ios
-#!rewrite: 866
+#!rewrite: 865
 #!mitm: 470
 #!github: https://github.com/blackmatrix7/ios_rule_script
 
@@ -762,7 +762,6 @@
 ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad\/.+?\/adBanner - reject
 ^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$ - reject-tinygif
 ^https?:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?>a|i) - reject-tinygif
-^https?:\/\/snailsleep\.net\/snail\/v1\/adTask\/ - reject
 ^https?:\/\/snailsleep\.net\/snail\/v1\/screen\/qn\/get\? - reject
 ^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ - reject
 ^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? - reject

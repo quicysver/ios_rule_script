@@ -1,8 +1,8 @@
 # NAME: 去广告
-# REWRITE: 866
+# REWRITE: 865
 # MITM: 470
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-13 10:32:30
+# UPDATE: 2020-10-13 11:20:43
 
 [URL Rewrite]
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ url reject
@@ -761,7 +761,6 @@
 ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad\/.+?\/adBanner url reject
 ^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$ url reject-200
 ^https?:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?>a|i) url reject-200
-^https?:\/\/snailsleep\.net\/snail\/v1\/adTask\/ url reject
 ^https?:\/\/snailsleep\.net\/snail\/v1\/screen\/qn\/get\? url reject
 ^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ url reject
 ^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? url reject
