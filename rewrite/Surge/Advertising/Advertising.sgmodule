@@ -1,7 +1,7 @@
 #!name=去广告
-#!desc=最后更新时间 2020-10-13 11:20:43
+#!desc=最后更新时间 2020-10-13 14:32:29
 #!system=ios
-#!rewrite: 865
+#!rewrite: 848
 #!mitm: 470
 #!github: https://github.com/blackmatrix7/ios_rule_script
 
@@ -339,7 +339,6 @@
 ^https?:\/\/c1\.ifengimg\.com\/.+?_w1080_h1410\.jpg - reject
 ^https?:\/\/c\.m\.163\.com\/nc\/gl\/ - reject
 ^https?:\/\/c\.minisplat\.cn - reject
-^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|mlog) - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/\w+\/\w+\/(sync|newRnSync|newlog|mlog) - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/f\/forum\/getAdInfo - reject
 ^https?:\/\/c\.tieba\.baidu\.com\/c\/p\/img\?src= - reject
@@ -352,9 +351,7 @@
 ^https?:\/\/capi\.douyucdn\.cn\/api\/ios_app\/check_update - reject
 ^https?:\/\/capi\.douyucdn\.cn\/api\/v1\/getStartSend?client_sys=ios - reject
 ^https?:\/\/capi\.douyucdn\.cn\/lapi\/sign\/app(api)?\/getinfo\?client_sys=ios - reject
-^https?:\/\/capi\.mwee\.cn/app-api/V12/app/getstartad - reject
-^https?:\/\/capi\.mwee\.cn\/app-api\/V\d{2}\/app\/(?:getstart)?+ad - reject-tinygif
-^https?:\/\/capis(-slb)?\.didapinche\.com\/ad\/ - reject
+^https?:\/\/capi\.mwee\.cn\/app-api\/V\d{2}\/app\/(?:getstart)?+ad - reject
 ^https?:\/\/capis(?:-slb)?+\.didapinche\.com\/ad\/ - reject
 ^https?:\/\/capis-clb\.didapinche\.com\/ad\/ - reject
 ^https?:\/\/ccsp-egmas\.sf-express\.com\/cx-app-base\/base\/app\/ad\/ - reject
@@ -364,7 +361,6 @@
 ^https?:\/\/cdn\.dianshihome\.com\/static\/ad\/ - reject
 ^https?:\/\/cdn\.kuaidi100\.com\/images\/open\/appads - reject
 ^https?:\/\/cdn\.moji\.com\/(adoss|adlink)\/ - reject
-^https?:\/\/cdn\.moji\.com\/ad(?>oss|link)\/ - reject-tinygif
 ^https?:\/\/cdn\.moji\.com\/adlink\/avatarcard - reject
 ^https?:\/\/cdn\.moji\.com\/adlink\/common - reject
 ^https?:\/\/cdn\.moji\.com\/adlink\/splash\/ - reject
@@ -544,7 +540,6 @@
 ^https?:\/\/ios\.wps\.cn\/ad-statistics-service - reject
 ^https?:\/\/iphone265g\.com\/templates\/iphone\/bottomAd\.js - reject
 ^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/(guanggao|ts_ad)\/ - reject
-^https?:\/\/issuecdn\.baidupcs\.com\/issue\/netdisk\/guanggao\/ - reject
 ^https?:\/\/itunes\.apple\.com\/lookup\?id=575826903 - reject
 ^https?:\/\/ivy\.pchouse\.com\.cn\/adpuba\/ - reject
 ^https?:\/\/kano\.guahao\.cn\/.+?\?resize=\d{3}-\d{4} - reject
@@ -586,10 +581,8 @@
 ^https?:\/\/mage\.if\.qidian\.com\/argus\/api\/v\d\/client\/getsplashscreen - reject
 ^https?:\/\/maicai\.api\.ddxq\.mobi\/advert\/ - reject
 ^https?:\/\/manga\.bilibili\.com\/twirp\/comic\.v\d\.Comic\/Flash - reject
-^https?:\/\/mangaapi\.manhuaren\.com\/v1\/public\/getStartPageAds - reject
 ^https?:\/\/mangaapi\.manhuaren\.com\/v\d\/public\/getStartPageAds - reject
 ^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init - reject
-^https?:\/\/mapi\.dangdang\.com\/index\.php\?action=init&user_client=iphone - reject
 ^https?:\/\/mapi\.mafengwo\.cn\/ad\/ - reject
 ^https?:\/\/mapi\.mafengwo\.cn\/travelguide\/ad\/ - reject
 ^https?:\/\/mbl\.56\.com\/config\/v1\/common\/config\.union\.ios\.do? - reject
@@ -620,11 +613,9 @@
 ^https?:\/\/mpcs\.suning\.com\/mpcs\/dm\/getDmInfo - reject
 ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/.{25}\.jpg - reject
 ^https?:\/\/mps\.95508\.com\/mps\/club\/cardPortals\/adv\/\d{25}\.(png|jpg) - reject
-^https?:\/\/mrobot\.pcauto\.com\.cn\/v3\/ad2p - reject
 ^https?:\/\/mrobot\.pcauto\.com\.cn\/v\d\/ad2p - reject
 ^https?:\/\/mrobot\.pcauto\.com\.cn\/xsp\/s\/auto\/info\/preload\.xsp - reject
 ^https?:\/\/mrobot\.pconline\.com\.cn\/s\/onlineinfo\/ad\/ - reject
-^https?:\/\/mrobot\.pconline\.com\.cn\/v3\/ad2p - reject
 ^https?:\/\/mrobot\.pconline\.com\.cn\/v\d\/ad2p - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/(aladdin\/na\/m\/getLoadingPicture|aladdin\/na\/m\/getLoadingPicture) - reject
 ^https?:\/\/ms\.jr\.jd\.com\/gw\/generic\/aladdin\/na\/m\/getLoadingPicture - reject
@@ -638,7 +629,6 @@
 ^https?:\/\/nnapp\.cloudbae\.cn:\d+\/mc\/api\/advert/ - reject
 ^https?:\/\/nnapp\.cloudbae\.cn\/mc\/api\/advert/ - reject
 ^https?:\/\/nochange\.ggsafe\.com\/ad\/ - reject
-^https?:\/\/notch\.qdaily\.com\/api\/v2\/boot_ad - reject
 ^https?:\/\/notch\.qdaily\.com\/api\/v\d\/boot_ad - reject
 ^https?:\/\/notice\.send-anywhere\.com\/banner - reject
 ^https?:\/\/oimage([a-z])([0-9])\.ydstatic\.com\/.+?&product=adpublish - reject
@@ -650,7 +640,6 @@
 ^https?:\/\/optimus-ads\.amap\.com\/uploadimg\/ - reject
 ^https?:\/\/oral\.youdao\.com\/oral\/adInfo - reject
 ^https?:\/\/oset-api\.open-adx\.com\/ad\/ - reject
-^https?:\/\/overseas\.weico\.cc/portal\.php\?a=get_coopen_ads - reject
 ^https?:\/\/overseas\.weico\.cc\/portal\.php\?a=get_coopen_ads - reject
 ^https?:\/\/p[^4](c)?\.music\.126\.net\/\w+==\/10995\d{13}\.jpg$ - reject
 ^https?:\/\/p\.c\.music\.126.net\/.*?jpg$ - reject
@@ -670,14 +659,12 @@
 ^https?:\/\/pan-api\.bitqiu\.com\/activity\/(getPromoteGuide|getUrlList) - reject
 ^https?:\/\/pan\.baidu\.com\/act\/api\/activityentry - reject
 ^https?:\/\/pan\.baidu\.com\/rest\/2\.0\/pcs\/adx - reject
-^https?:\/\/pan\.baidu\.com\/rest\/\d\.\d\/pcs\/adx - reject
 ^https?:\/\/paopao\w?.qiyipic.com - reject
 ^https?:\/\/pcvideoyd\.titan\.mgtv\.com\/pb\/ - reject
 ^https?:\/\/photocdn\.sohu\.com\/tvmobilemvms - reject
 ^https?:\/\/pic1\.chelaile\.net\.cn\/adv\/ - reject
 ^https?:\/\/pic1cdn\.cmbchina\.com\/appinitads\/ - reject-tinygif
 ^https?:\/\/pic\.edaijia\.cn\/adsplash\/ - reject
-^https?:\/\/pic\.k\.sohu\.com\/img8\/wb\/tj\/ - reject
 ^https?:\/\/pic\.k\.sohu\.com\/img\d\/wb\/tj\/ - reject
 ^https?:\/\/pic\.xiami\.net\/images\/common\/uploadpic[\s\S]*?\.jpg$ - reject
 ^https?:\/\/pic\d\.ajkimg\.com\/mat\/\w+\?imageMogr\d\/format\/jpg\/thumbnail\/\d{3}x\d{4}$ - reject
@@ -714,9 +701,7 @@
 ^https?:\/\/restapi\.iyunmai\.com\/api\/ios\/ad\/ - reject
 ^https?:\/\/rich\.kuwo\.cn\/AdService\/kaiping\/adinfo - reject
 ^https?:\/\/richmanapi\.jxedt\.com\/api\/(ad|adplus)\/ - reject
-^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/ - reject
 ^https?:\/\/richmanapi\.jxedt\.com\/api\/ad\/guideplus - reject
-^https?:\/\/richmanapi\.jxedt\.com\/api\/adplus - reject
 ^https?:\/\/richmanapi\.jxedt\.com\/api\/banadplus - reject
 ^https?:\/\/richmanmain\.jxedt\.com\/advertisement\/fallback - reject
 ^https?:\/\/rm\.aarki\.net\/v1\/ads - reject
@@ -762,7 +747,6 @@
 ^https?:\/\/smkmp\.96225\.com\/smkcenter\/ad\/.+?\/adBanner - reject
 ^https?:\/\/smusic\.app\.wechat\.com\/commonCgi\/advertisement\/get_orint_egg$ - reject-tinygif
 ^https?:\/\/smusic\.app\.wechat\.com\/fcgi-bin\/get_(?>a|i) - reject-tinygif
-^https?:\/\/snailsleep\.net\/snail\/v1\/screen\/qn\/get\? - reject
 ^https?:\/\/snailsleep\.net\/snail\/v\d\/adTask\/ - reject
 ^https?:\/\/snailsleep\.net\/snail\/v\d\/screen\/qn\/get\? - reject
 ^https?:\/\/sp\.kaola\.com\/api\/openad - reject
@@ -800,7 +784,6 @@
 ^https?:\/\/tqt\.weibo\.cn\/[\w=?&%.-]+advert\.index - reject
 ^https?:\/\/tqt\.weibo\.cn\/api\/advert\/ - reject
 ^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=(tqt_sdkad|tqtad) - reject
-^https?:\/\/tqt\.weibo\.cn\/overall\/redirect\.php\?r=tqt_sdkad - reject
 ^https?:\/\/u1\.img\.mobile\.sina\.cn\/public\/files\/image\/\d{3}x\d{2,4}.+?(png|jpg|mp4) - reject
 ^https?:\/\/ugc\.moji001\.com\/sns\/json\/profile\/get_unread - reject
 ^https?:\/\/ulogs\.umeng\.com - reject
