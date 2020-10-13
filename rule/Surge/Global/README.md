@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Global分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:15:32。
+最后检查时间：2020-10-13 10:19:57。
 
 ## 规则统计
 
@@ -32,7 +32,7 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156173   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Advertising.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/Advertising.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/China.list)   |   0.67%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global/Repeat/BlackList.list)   |   30.33%  |

@@ -7,7 +7,7 @@
 定时爬取互联网上开源的China分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:15:30。
+最后检查时间：2020-10-13 10:19:55。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@ China分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156173   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/Advertising.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156031   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/Advertising.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/AdvertisingLite.list)   |   0.01%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/BlackList.list)   |   1.54%  |
 |  [PayPal](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal)    | 5   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China/Repeat/PayPal.list)   |   80.00%  |

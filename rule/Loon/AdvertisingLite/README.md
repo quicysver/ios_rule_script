@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则。
 
-最后检查时间：2020-10-13 10:15:29。
+最后检查时间：2020-10-13 10:19:54。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156173   | [131289](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Advertising.list)   |   84.07%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156031   | [131289](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/Advertising.list)   |   84.14%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/China.list)   |   1.18%  |
 |  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/WhiteList.list)   |   16.67%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite/Repeat/BlackList.list)   |   1.41%  |

@@ -8,7 +8,7 @@
 
 不含有Apple News等国内无法使用的分流规则
 
-最后检查时间：2020-10-13 10:15:31。
+最后检查时间：2020-10-13 10:19:56。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156173   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Advertising.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/Advertising.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/China.list)   |   2.02%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Apple/Repeat/BlackList.list)   |   0.39%  |

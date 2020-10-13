@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Hijacking分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:15:32。
+最后检查时间：2020-10-13 10:19:57。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ Hijacking分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156173   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/Advertising.list)   |   0.13%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156031   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/Advertising.list)   |   0.13%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Hijacking/Repeat/AdvertisingLite.list)   |   0.16%  |
 ## 配置说明
 
