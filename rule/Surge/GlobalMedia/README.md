@@ -7,7 +7,7 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:19:57。
+最后检查时间：2020-10-13 10:29:06。
 
 ## 规则统计
 
@@ -30,18 +30,18 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/BlackList.list)   |   1.29%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 14   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Youtube.list)   |   50.00%  |
-|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Speedtest.list)   |   20.00%  |
-|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Netflix)    | 34   | [34](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Netflix.list)   |   100.00%  |
-|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Pornhub)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Pornhub.list)   |   100.00%  |
-|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Bahamut.list)   |   100.00%  |
-|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Disney.list)   |   100.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [186](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Global.list)   |   22.09%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Spotify.list)   |   87.50%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia/Repeat/Proxy.list)   |   1.29%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/AdvertisingLite.list)   |   0.00%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/BlackList.list)   |   1.29%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 14   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Youtube.list)   |   50.00%  |
+|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Speedtest.list)   |   20.00%  |
+|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Netflix)    | 34   | [34](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Netflix.list)   |   100.00%  |
+|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Pornhub)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Pornhub.list)   |   100.00%  |
+|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Bahamut.list)   |   100.00%  |
+|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Disney)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Disney.list)   |   100.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [186](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Global.list)   |   22.09%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Spotify.list)   |   87.50%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Proxy.list)   |   1.29%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

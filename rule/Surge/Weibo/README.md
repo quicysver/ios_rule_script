@@ -7,7 +7,7 @@
 定时爬取互联网上开源的微博分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:19:58。
+最后检查时间：2020-10-13 10:29:07。
 
 ## 规则统计
 
@@ -27,7 +27,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Weibo/Repeat/China.list)   |   0.51%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Weibo/China.list)   |   0.51%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -7,7 +7,7 @@
 定时爬取互联网上开源的黑名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:19:55。
+最后检查时间：2020-10-13 10:29:04。
 
 ## 规则统计
 
@@ -30,24 +30,24 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Advertising.list)   |   0.02%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AdvertisingLite.list)   |   0.01%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/China.list)   |   2.02%  |
-|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 64   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Google.list)   |   57.81%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Youtube.list)   |   21.43%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 31   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Microsoft.list)   |   12.90%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Apple.list)   |   6.12%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AppleNews.list)   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/AppleBlock.list)   |   100.00%  |
-|  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cloudflare)    | 15   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Cloudflare.list)   |   6.67%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Download.list)   |   14.29%  |
-|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Facebook)    | 25   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Facebook.list)   |   24.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Global.list)   |   28.03%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/GlobalMedia.list)   |   5.21%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Spotify.list)   |   12.50%  |
-|  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TestFlight)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/TestFlight.list)   |   50.00%  |
-|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Twitter.list)   |   87.50%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [772](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList/Repeat/Proxy.list)   |   99.87%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Advertising.list)   |   0.02%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/AdvertisingLite.list)   |   0.01%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/China.list)   |   2.02%  |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Google)    | 64   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Google.list)   |   57.81%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 14   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Youtube.list)   |   21.43%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 31   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Microsoft.list)   |   12.90%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Apple.list)   |   6.12%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/AppleNews.list)   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/AppleBlock.list)   |   100.00%  |
+|  [Cloudflare](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Cloudflare)    | 15   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Cloudflare.list)   |   6.67%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Download.list)   |   14.29%  |
+|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Facebook)    | 25   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Facebook.list)   |   24.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Global.list)   |   28.03%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/GlobalMedia.list)   |   5.21%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spotify)    | 8   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Spotify.list)   |   12.50%  |
+|  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/TestFlight)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/TestFlight.list)   |   50.00%  |
+|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Twitter)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Twitter.list)   |   87.50%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [772](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/BlackList/Proxy.list)   |   99.87%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

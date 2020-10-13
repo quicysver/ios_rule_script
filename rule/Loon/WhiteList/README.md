@@ -7,7 +7,7 @@
 定时爬取互联网上开源的白名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:19:55。
+最后检查时间：2020-10-13 10:29:04。
 
 ## 规则统计
 
@@ -29,8 +29,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/WhiteList/Repeat/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/AdvertisingLite.list)   |   0.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

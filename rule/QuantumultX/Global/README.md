@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Global分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:19:57。
+最后检查时间：2020-10-13 10:29:06。
 
 ## 规则统计
 
@@ -32,34 +32,34 @@ Global分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156031   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/China.list)   |   0.67%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/BlackList.list)   |   30.33%  |
-|  [PayPal](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal)    | 5   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/PayPal.list)   |   60.00%  |
-|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Steam.list)   |   6.25%  |
-|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Discord)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Discord.list)   |   50.00%  |
-|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game)    | 28   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Game.list)   |   14.29%  |
-|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 64   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Google.list)   |   87.50%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Youtube.list)   |   64.29%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 31   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Microsoft.list)   |   25.81%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Apple.list)   |   6.12%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/AppleNews.list)   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/AppleBlock.list)   |   100.00%  |
-|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Speedtest.list)   |   20.00%  |
-|  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram)    | 19   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Telegram.list)   |   84.21%  |
-|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix)    | 34   | [28](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Netflix.list)   |   82.35%  |
-|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Pornhub)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Pornhub.list)   |   100.00%  |
-|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Bahamut.list)   |   100.00%  |
-|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Disney)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Disney.list)   |   100.00%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Download.list)   |   14.29%  |
-|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook)    | 25   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Facebook.list)   |   100.00%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | [186](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/GlobalMedia.list)   |   96.88%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Spotify.list)   |   87.50%  |
-|  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/TestFlight.list)   |   50.00%  |
-|  [AppStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppStore)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/AppStore.list)   |   100.00%  |
-|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 8   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Twitter.list)   |   100.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [230](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global/Repeat/Proxy.list)   |   29.75%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156031   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/AdvertisingLite.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/China.list)   |   0.67%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [236](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/BlackList.list)   |   30.33%  |
+|  [PayPal](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/PayPal)    | 5   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/PayPal.list)   |   60.00%  |
+|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Steam)    | 16   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Steam.list)   |   6.25%  |
+|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Discord)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Discord.list)   |   50.00%  |
+|  [Game](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Game)    | 28   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Game.list)   |   14.29%  |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Google)    | 64   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Google.list)   |   87.50%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Youtube.list)   |   64.29%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 31   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Microsoft.list)   |   25.81%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Apple.list)   |   6.12%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/AppleNews.list)   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleBlock)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/AppleBlock.list)   |   100.00%  |
+|  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Speedtest.list)   |   20.00%  |
+|  [Telegram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Telegram)    | 19   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Telegram.list)   |   84.21%  |
+|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Netflix)    | 34   | [28](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Netflix.list)   |   82.35%  |
+|  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Pornhub)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Pornhub.list)   |   100.00%  |
+|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Bahamut.list)   |   100.00%  |
+|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Disney)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Disney.list)   |   100.00%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Download.list)   |   14.29%  |
+|  [Facebook](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Facebook)    | 25   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Facebook.list)   |   100.00%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | [186](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/GlobalMedia.list)   |   96.88%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Spotify.list)   |   87.50%  |
+|  [TestFlight](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/TestFlight)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/TestFlight.list)   |   50.00%  |
+|  [AppStore](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppStore)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/AppStore.list)   |   100.00%  |
+|  [Twitter](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Twitter)    | 8   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Twitter.list)   |   100.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [230](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Global/Proxy.list)   |   29.75%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

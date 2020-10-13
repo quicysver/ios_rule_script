@@ -8,7 +8,7 @@
 
 含有OneDriver分流规则
 
-最后检查时间：2020-10-13 10:19:56。
+最后检查时间：2020-10-13 10:29:05。
 
 ## 规则统计
 
@@ -30,14 +30,14 @@ Microsoft分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/China.list)   |   1.01%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/BlackList.list)   |   0.51%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Apple.list)   |   2.04%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/AppleNews.list)   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/AppleBlock.list)   |   16.67%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Download.list)   |   14.29%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Global.list)   |   0.95%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft/Repeat/Proxy.list)   |   0.39%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/China.list)   |   1.01%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/BlackList.list)   |   0.51%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 49   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Apple.list)   |   2.04%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/AppleNews.list)   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/AppleBlock.list)   |   16.67%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Download.list)   |   14.29%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Global.list)   |   0.95%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Proxy.list)   |   0.39%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

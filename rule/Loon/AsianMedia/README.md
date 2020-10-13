@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-13 10:19:58。
+最后检查时间：2020-10-13 10:29:08。
 
 ## 规则统计
 
@@ -30,12 +30,12 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia/Repeat/China.list)   |   1.18%  |
-|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia/Repeat/Bilibili.list)   |   100.00%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia/Repeat/ChinaMedia.list)   |   33.33%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia/Repeat/ChinaIPs.list)   |   0.03%  |
-|  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia/Repeat/iQiyi.list)   |   100.00%  |
-|  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia/Repeat/TencentVideo.list)   |   50.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/China.list)   |   1.18%  |
+|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/Bilibili.list)   |   100.00%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/ChinaMedia.list)   |   33.33%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/ChinaIPs.list)   |   0.03%  |
+|  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/iQiyi.list)   |   100.00%  |
+|  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/TencentVideo.list)   |   50.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 本分流规则不包含任何知乎去广告规则。
 
-最后检查时间：2020-10-13 10:19:53。
+最后检查时间：2020-10-13 10:29:03。
 
 ## 规则统计
 
@@ -31,19 +31,19 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [131289](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/AdvertisingLite.list)   |   100.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/China.list)   |   1.69%  |
-|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/WhiteList.list)   |   16.67%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/BlackList.list)   |   3.08%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Youtube.list)   |   7.14%  |
-|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Apple.list)   |   2.04%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Global.list)   |   0.83%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/GlobalMedia.list)   |   0.52%  |
-|  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking)    | 209   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Hijacking.list)   |   100.00%  |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 75   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/ChinaMedia.list)   |   1.33%  |
-|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 28   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Privacy.list)   |   32.14%  |
-|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEaseMusic)    | 41   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/NetEaseMusic.list)   |   2.44%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising/Repeat/Proxy.list)   |   3.10%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [131289](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/AdvertisingLite.list)   |   100.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/China.list)   |   1.69%  |
+|  [WhiteList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/WhiteList)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/WhiteList.list)   |   16.67%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/BlackList.list)   |   3.08%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/Youtube.list)   |   7.14%  |
+|  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Apple)    | 49   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/Apple.list)   |   2.04%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/Global.list)   |   0.83%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/GlobalMedia)    | 192   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/GlobalMedia.list)   |   0.52%  |
+|  [Hijacking](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Hijacking)    | 209   | [209](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/Hijacking.list)   |   100.00%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/ChinaMedia)    | 75   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/ChinaMedia.list)   |   1.33%  |
+|  [Privacy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Privacy)    | 28   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/Privacy.list)   |   32.14%  |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/NetEaseMusic)    | 41   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/NetEaseMusic.list)   |   2.44%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [24](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Advertising/Proxy.list)   |   3.10%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

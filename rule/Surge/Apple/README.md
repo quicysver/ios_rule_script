@@ -8,7 +8,7 @@
 
 不含有Apple News等国内无法使用的分流规则
 
-最后检查时间：2020-10-13 10:19:56。
+最后检查时间：2020-10-13 10:29:05。
 
 ## 规则统计
 
@@ -30,15 +30,15 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/China.list)   |   2.02%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/BlackList.list)   |   0.39%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 31   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Microsoft.list)   |   3.23%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppleNews.list)   |   11.11%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/AppleBlock.list)   |   50.00%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Download.list)   |   14.29%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple/Repeat/Global.list)   |   0.36%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AdvertisingLite.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/China.list)   |   2.02%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/BlackList.list)   |   0.39%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 31   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Microsoft.list)   |   3.23%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AppleNews.list)   |   11.11%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AppleBlock.list)   |   50.00%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Download.list)   |   14.29%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Global.list)   |   0.36%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

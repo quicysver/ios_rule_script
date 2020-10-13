@@ -1,6 +1,6 @@
 # NAME: TencentVideo
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-13 10:15:28
+# UPDATE: 2020-10-13 10:29:03
 # DOMAIN-SUFFIX: 2
 # TOTAL: 2
 HOST-SUFFIX,v.smtcdns.com,TencentVideo

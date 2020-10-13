@@ -8,7 +8,7 @@
 
 含有Steam、Blizzard、Discord等分流规则
 
-最后检查时间：2020-10-13 10:19:56。
+最后检查时间：2020-10-13 10:29:05。
 
 ## 规则统计
 
@@ -28,11 +28,11 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game/Repeat/China.list)   |   1.69%  |
-|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game/Repeat/Steam.list)   |   100.00%  |
-|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game/Repeat/Blizzard.list)   |   100.00%  |
-|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game/Repeat/Discord.list)   |   100.00%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Game/Repeat/Global.list)   |   0.48%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Game/China.list)   |   1.69%  |
+|  [Steam](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Steam)    | 16   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Game/Steam.list)   |   100.00%  |
+|  [Blizzard](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Blizzard)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Game/Blizzard.list)   |   100.00%  |
+|  [Discord](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Discord)    | 6   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Game/Discord.list)   |   100.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Game/Global.list)   |   0.48%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
