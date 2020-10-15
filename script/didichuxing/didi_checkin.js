@@ -366,7 +366,6 @@ async function Main(){
           content += serialSignInTimes;
         }
         if (giftList.length > 0){
-          if (content) content += '\n';
           content += '，奖励：';
           for(let i=0;i<giftList.length;i++){
             content += `\n${giftList[i].name} ${giftList[i].value} ${giftList[i].unit} 过期 ${giftList[i].endDate}`;
