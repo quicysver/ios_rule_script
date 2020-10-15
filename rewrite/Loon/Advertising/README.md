@@ -9,7 +9,7 @@
 本复写插件不包含任何知乎去广告规则
 
 
-最后检查时间：2020-10-15 14:49:22。
+最后检查时间：2020-10-15 15:38:01。
 
 ## 复写统计
 
@@ -60,8 +60,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/L
 ### MITM
 
 爬虫程序除保留数据源中的MITM主机名外， 还会通过算法，根据正则反推部分主机名，用于补充数据源中可能遗漏的MITM主机名。但因为正则表达式的复杂性，算法无法100%反推所有的正确主机名。如果你在使用中，发现主机名错误的情况，欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈。
-
-除正则反推外，爬虫程序还会对部分重复的主机名进行去除。如同时存在zhidao.baidu.com和*.baidu.com两个主机名，则zhidao.baidu.com会被去除。
 
 ### 正则过滤
 
