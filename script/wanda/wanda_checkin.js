@@ -1,6 +1,8 @@
 const scriptName = '万达电影';
-const getCookieRegex = /https?:\/\/user-api-prd-mx\.wandafilm\.com\/user\/query_user_level\.api/;
+const getCookieRegex = /https?:\/\/user\-api\-prd\-mx\.wandafilm\.com\/user\/query_user_level\.api/;
+const getactivityCodeRegex = /https?:\/\/cms\-activity\-api\-prd\-mx\.wandafilm\.com\/activity\/activity_count\.api\?activityCode=(\d*)/;
 const cookieKey = 'wanda_checkin_cookie';
+const activityCodeKey = 'wanda_activitycode';
 const activityCode = '95791112';
 const wandaKey = 'Wanda1_3B3AA12B0145E1982F282BEDD8A3305B89A9811280C0B8CC3A6A60D81022E4903';
 let magicJS = MagicJS(scriptName, "INFO");
@@ -47,6 +49,9 @@ function sign(cookie, ts, checkVal, activityCode, date){
             resolve('🎉恭喜，签到成功！！')
           }
           else if (obj.code === 20001){
+            resolve('🎉今日已签到过了，不要重复签到哦！！')
+          }
+          else if (obj.code === 26017 && obj.msg === '重复签到'){
             resolve('🎉今日已签到过了，不要重复签到哦！！')
           }
           else if (obj.code === 20001 && obj.msg.indexOf('未登录')){
@@ -187,60 +192,85 @@ function lottery(cookie, ts, checkVal, activityCode) {
 }
 
 ;(async()=>{
-  if (magicJS.isRequest && getCookieRegex.test(magicJS.request.url)){
-    let cookie = magicJS.request.headers.Cookie;
-    let hisCookie = magicJS.read(cookieKey);
-    cookie = JSON.parse(cookie);
-    hisCookie = !!hisCookie ? hisCookie : {};
-    if (cookie['_mi_'] != hisCookie['_mi_']){
-      magicJS.write(cookieKey, cookie);
-      magicJS.logInfo(`旧的Cookie：${hisCookie}\n新的Cookie：${cookie}\nCookie不同，写入新的Cookie成功！`);
-      magicJS.notify('Cookie写入成功！！');
+  if (magicJS.isRequest){
+    if (getCookieRegex.test(magicJS.request.url)){
+      let cookie = magicJS.request.headers.Cookie;
+      let hisCookie = magicJS.read(cookieKey);
+      cookie = JSON.parse(cookie);
+      hisCookie = !!hisCookie ? hisCookie : {};
+      if (cookie['_mi_'] != hisCookie['_mi_']){
+        magicJS.write(cookieKey, cookie);
+        magicJS.logInfo(`旧的Cookie：${hisCookie}\n新的Cookie：${cookie}\nCookie不同，写入新的Cookie成功！`);
+        magicJS.notify('Cookie写入成功！！');
+      }
+      else{
+        magicJS.logInfo('Cookie没有变化，无需更新');
+      }
     }
-    else{
-      magicJS.logInfo('Cookie没有变化，无需更新');
+    else if (getactivityCodeRegex.test(magicJS.request.url) && magicJS.request.method == 'GET'){
+      try{
+        let activityCode = magicJS.request.url.match(getactivityCodeRegex)[1];
+        magicJS.write(activityCodeKey, activityCode);
+        magicJS.notify(`获取ActivityCode成功：${activityCode}`);
+      }
+      catch(err){
+        magicJS.logError(`获取ActivityCode失败，异常信息：${err}`);
+      }
+      
     }
   }
   else{
     let subTitle = "";
     let content = "";
     let cookie = magicJS.read(cookieKey);
+    let activityCode = magicJS.read(activityCodeKey);
     if (!!!cookie){
       magicJS.logWarning('没有读取到Cookie，请先从App中获取一次Cookie！');
       magicJS.notify('❓没有读取到有效Cookie，请先从App中获取Cookie!!');
     }
+    else if (!!!activityCode) {
+      magicJS.logWarning('没有读取到activityCode，请先访问活动页面获取一次activityCode！！');
+      magicJS.notify('❓没有读取到activityCode，请先访问活动页面获取!!');
+    }
     else{
-      let ts = new Date().getTime();
-      let checkVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/wholeSignUp.apiactivityCode=${activityCode}&signDate=${magicJS.today()}`);
-      magicJS.logDebug(`checkVal:${checkVal}`);
-      cookie['ts'] = ts;
-      cookie['check'] = checkVal;
-      let [checkInErr, checkInStr] = await magicJS.attempt(magicJS.retry(sign, 1, 1000)(cookie, ts, checkVal, activityCode, magicJS.today()));
-      let signRecordVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/getSignRecord.apiactivityCode=${activityCode}`);
-      magicJS.logDebug(`signRecordVal:${signRecordVal}`);
-      cookie['check'] = checkVal;
-      let [recordErr, [totalMedal, remainMedal]] = await magicJS.attempt(magicJS.retry(signRecord, 1, 1000)(cookie, ts, signRecordVal, activityCode), [0, 0]);
-      if (checkInErr){
-        subTitle = checkInErr;
+      let today = new Date();
+      if (today.getDate() == 1){
+        subTitle = `❓每月第一天需要手动签到一次ActivityCode`;
+        content = '本月后续天数自动签将恢复正常';
       }
       else{
-        subTitle = checkInStr;
-      }
-      if (!recordErr && !checkInErr){
-        content = `本月共获得能量${totalMedal}个，剩余${remainMedal}个。`;
-      }
-      // 每月最后一天抽奖
-      let today = new Date();
-      let tomorrow = new Date(today.setDate(today.getDate() + 1));
-      if (tomorrow.getDate() == 1 && remainMedal >= 50){
-        let lotteryVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/prize/lottery.apiactivityCode=${activityCode}`);
-        for(let i=0;i<parseInt(remainMedal/50);i++){
-          let [err, result] = await magicJS.attempt(lottery(cookie, ts, lotteryVal, activityCode));
-          if (err){
-            content += `\n第${i+1}次抽奖：${err}`;
-          }
-          else{
-            content += `\n第${i+1}次抽奖：${result}`;
+        let ts = new Date().getTime();
+        magicJS.logInfo(`当前使用的ActivityCode: ${activityCode}`);
+        let checkVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/wholeSignUp.apiactivityCode=${activityCode}&signDate=${magicJS.today()}`);
+        magicJS.logDebug(`checkVal:${checkVal}`);
+        cookie['ts'] = ts;
+        cookie['check'] = checkVal;
+        let [checkInErr, checkInStr] = await magicJS.attempt(magicJS.retry(sign, 1, 1000)(cookie, ts, checkVal, activityCode, magicJS.today()));
+        let signRecordVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/getSignRecord.apiactivityCode=${activityCode}`);
+        magicJS.logDebug(`signRecordVal:${signRecordVal}`);
+        cookie['check'] = checkVal;
+        let [recordErr, [totalMedal, remainMedal]] = await magicJS.attempt(magicJS.retry(signRecord, 1, 1000)(cookie, ts, signRecordVal, activityCode), [0, 0]);
+        if (checkInErr){
+          subTitle = checkInErr;
+        }
+        else{
+          subTitle = checkInStr;
+        }
+        if (!recordErr && !checkInErr){
+          content = `本月共获得能量${totalMedal}个，剩余${remainMedal}个。`;
+        }
+        // 每月最后一天抽奖
+        let tomorrow = new Date(today.setDate(today.getDate() + 1));
+        if (tomorrow.getDate() == 1 && remainMedal >= 50){
+          let lotteryVal = hex_md5(`${wandaKey}${ts}/activityWholeSign/prize/lottery.apiactivityCode=${activityCode}`);
+          for(let i=0;i<parseInt(remainMedal/50);i++){
+            let [err, result] = await magicJS.attempt(lottery(cookie, ts, lotteryVal, activityCode));
+            if (err){
+              content += `\n第${i+1}次抽奖：${err}`;
+            }
+            else{
+              content += `\n第${i+1}次抽奖：${result}`;
+            }
           }
         }
       }
