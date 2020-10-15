@@ -1,14 +1,14 @@
 const scriptName = '饿了么';
-const getCookieRegex = /^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/missions?.*longitude=([^&]*).*latitude=([^&]*)/;
+const getCookieRegex = /^https?:\/\/h5\.ele\.me\/restapi\/svip_biz\/v1\/supervip\/query_mission_list\?longitude=([^&]*).*latitude=([^&]*)/;
 const elemeCookieKey = 'eleme_app_cookie';
 const elemeLongitudeKey = 'eleme_app_longitude';
 const elemeLatitudeKey = 'eleme_app_latitude';
-let magicJS = MagicJS(scriptName, "DEGUG");
+let magicJS = MagicJS(scriptName, "INFO");
 
 function GetSuperVipMissions(cookie, longitude, latitude){
   return new Promise((resolve, reject)=>{
     let options = {
-      url: `https://h5.ele.me/restapi/svip_biz/v1/supervip/missions?longitude=${longitude}&latitude=${latitude}`,
+      url: `https://h5.ele.me/restapi/svip_biz/v1/supervip/query_mission_list?longitude=${longitude}&latitude=${latitude}`,
       headers: {
         "Accept": "application/json, text/plain, */*",
         "Accept-Encoding": "gzip, deflate, br",
@@ -16,9 +16,9 @@ function GetSuperVipMissions(cookie, longitude, latitude){
         "Connection": "keep-alive",
         "Cookie": cookie,
         "Host": "h5.ele.me",
-        "Origin": "https://tb.ele.me",
-        "Referer": "https://tb.ele.me/wow/z/ele-market/default/Welfare-Centre-svip?wh_biz=tm",
-        "User-Agent": "Rajax/1 Apple/iPhone12,5 iOS/14.0.1 Eleme/9.0.10 ID/1F913024-DCB2-4A87-91DF-129CCEBBFF78; IsJailbroken/0 Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AliApp(ELMC/9.0.10) UT4Aplus/0.0.4 WindVane/8.6.1 1242x2688 WK",
+        "Referer": "https://h5.ele.me/svip/home?entryStat=profile",
+        "User-Agent": "Rajax/1 Apple/iPhone10,3 iOS/14.2 Eleme/9.3.8 ID/4F1E776B-B73A-4E42-AF76-7BAD72E5AEDA; IsJailbroken/0 ASI/4D380FD3-4595-487D-BF4C-FAE7519F0662 Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AliApp(ELMC/9.3.8) UT4Aplus/0.0.4 WindVane/8.7.1 1125x2436 WK",
+        "f-pTraceId": "WVNet_WV_2-3-30",
         "f-refer": "wv_h5",
         "x-shard": `loc=${longitude},${latitude}`
       }
@@ -34,7 +34,7 @@ function GetSuperVipMissions(cookie, longitude, latitude){
           let obj = typeof data === 'string'? JSON.parse(data) : data;
           if (obj){
             let result = [];
-            obj.forEach(element => {
+            obj.missions.forEach(element => {
               result.push(element.mission_id);
             });
             resolve(result);
@@ -55,9 +55,8 @@ function GetSuperVipMissions(cookie, longitude, latitude){
 
 function AcceptMission(cookie, longitude, latitude, mission_id){
   return new Promise((resolve, reject)=>{
-    let userId = cookie.match(/USERID=(\d*)/)[1];
     let options = {
-      url: `https://h5.ele.me/restapi/svip_biz/v1/supervip/missions/accept?user_id=${userId}&type=0&platform=1&mission_id=${mission_id}`,
+      url: `https://h5.ele.me/restapi/svip_biz/v1/supervip/accept_mission?type=0&mission_id=${mission_id}`,
       headers: {
         "Accept": "application/json, text/plain, */*",
         "Accept-Encoding": "gzip, deflate, br",
@@ -66,9 +65,10 @@ function AcceptMission(cookie, longitude, latitude, mission_id){
         "Content-Type": "application/json;charset=utf-8",
         "Cookie": cookie,
         "Host": "h5.ele.me",
-        "Origin": "https://tb.ele.me",
-        "Referer": "https://tb.ele.me/wow/z/ele-market/default/Welfare-Centre-svip?wh_biz=tm",
-        "User-Agent": "Rajax/1 Apple/iPhone12,5 iOS/14.0.1 Eleme/9.0.10 ID/1F913024-DCB2-4A87-91DF-129CCEBBFF78; IsJailbroken/0 Mozilla/5.0 (iPhone; CPU iPhone OS 14_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AliApp(ELMC/9.0.10) UT4Aplus/0.0.4 WindVane/8.6.1 1242x2688 WK",
+        "Origin": "https://h5.ele.me",
+        "Referer": "https://h5.ele.me/svip/home?entryStat=profile",
+        "User-Agent": "Rajax/1 Apple/iPhone10,3 iOS/14.2 Eleme/9.3.8 ID/4F1E776B-B73A-4E42-AF76-7BAD72E5AEDA; IsJailbroken/0 ASI/4D380FD3-4595-487D-BF4C-FAE7519F0662 Mozilla/5.0 (iPhone; CPU iPhone OS 14_2 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Mobile/15E148 AliApp(ELMC/9.3.8) UT4Aplus/0.0.4 WindVane/8.7.1 1125x2436 WK",
+        "f-pTraceId": "WVNet_WV_2-3-79",
         "f-refer": "wv_h5",
         "x-shard": `loc=${longitude},${latitude}`
       },
@@ -85,9 +85,9 @@ function AcceptMission(cookie, longitude, latitude, mission_id){
       else{
         try{
           let obj = typeof data === 'string'? JSON.parse(data) : data;
-          if (obj.checkout_description){
-            magicJS.logInfo(`领取会员任务成功：${obj.checkout_description}`);
-            resolve(obj.checkout_description);
+          if (obj.success === true){
+            magicJS.logInfo(`领取会员任务成功：${obj.mission.checkout_description}`);
+            resolve(obj.mission.checkout_description);
           }
           else if (obj.message){
             magicJS.logError(`领取会员任务失败，响应异常：${data}`);

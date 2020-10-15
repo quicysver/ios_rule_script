@@ -35,4 +35,4 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/ele
 
 ## 获取Cookie
 
-饿了么APP - 我的 - 福利中心
+饿了么APP - 我的 - 超级吃货卡
