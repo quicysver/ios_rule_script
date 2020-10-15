@@ -1,6 +1,6 @@
 # NAME: Advertising
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-13 14:32:10
+# UPDATE: 2020-10-15 11:14:24
 # DOMAIN: 112970
 # DOMAIN-KEYWORD: 55
 # DOMAIN-SUFFIX: 42433
@@ -8461,6 +8461,7 @@ DOMAIN-SUFFIX,c3t-system-err.club
 DOMAIN-SUFFIX,c3tag.com
 DOMAIN-SUFFIX,c4698cd6aed0dcef367.com
 DOMAIN-SUFFIX,c4dv.copinesdevoyage.com
+DOMAIN-SUFFIX,c4frc.info
 DOMAIN-SUFFIX,c4tracking01.com
 DOMAIN-SUFFIX,c50021876c67fd14.com
 DOMAIN-SUFFIX,c5b39ff13b3259df.com
@@ -18287,7 +18288,6 @@ DOMAIN-SUFFIX,hostedprebid.com
 DOMAIN-SUFFIX,hosticanaffiliate.com
 DOMAIN-SUFFIX,hosting.conduit.com
 DOMAIN-SUFFIX,hosting.miarroba.info
-DOMAIN-SUFFIX,hosting24.com
 DOMAIN-SUFFIX,hostingcloud.ac
 DOMAIN-SUFFIX,hostingcloud.bi
 DOMAIN-SUFFIX,hostingcloud.li
