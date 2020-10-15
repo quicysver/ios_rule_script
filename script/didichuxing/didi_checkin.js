@@ -2,10 +2,14 @@ const scriptName = '滴滴出行';
 const didiTokenKey = 'didi_token';
 const didiCityIdKey = 'didi_city_id';
 const didiLidKey = 'didi_lid';
+const didiMySourceIdKey = 'didi_my_source_id';
+const didiActivityIdKey = 'didi_activity_id';
+const didiChannelIdKey = 'didi_channel_id';
 const getTokenRegex = /^https?:\/\/api\.didialift\.com\/beatles\/userapi\/user\/user\/getuserinfo?.*city_id=(\d+).*&token=([^&]*)/;
 const getTokenRegex2 = /^https?:\/\/as\.xiaojukeji\.com\/ep\/as\/toggles\?.*location_cityid=(\d+).*&ticket=([^&]*)/;
 const getLidRegex = /^https?:\/\/bosp-api\.xiaojukeji\.com\/bosp-api\/lottery\/info?.*lid=([^&]*)/;
-const sourceIdList = ['7mO4XP93fb84VMSC8Xk5vg%3D%3D'];
+const getActivityIdRegex = /^https?:\/\/manhattan\.webapp\.xiaojukeji\.com\/marvel\/api\/manhattan\-signin\-task\/signIn\/execute/;
+let sourceIdList = ['7mO4XP93fb84VMSC8Xk5vg%3D%3D', 'pDmWW7HoWUkNu2nmJ3HJEQ%3D%3D'];
 let magicJS = MagicJS(scriptName, "INFO");
 
 
@@ -37,7 +41,8 @@ function CheckIn(token, cityId, source_id=''){
           let obj = JSON.parse(data);
           if (obj.errno == 0){
             if (obj.data.hasOwnProperty('share') && obj.data.share.hasOwnProperty('source_id')){
-              magicJS.logInfo(`您的source_id：${obj.data.share.source_id}`);
+              magicJS.write(didiMySourceIdKey, obj.data.share.source_id);
+              magicJS.logDebug(`您的source_id：${obj.data.share.source_id}`);
             }
             if (obj.data.sign.sign){
               let subsidy = Number(obj.data.sign.sign.subsidy_state.subsidy_amount + obj.data.sign.sign.subsidy_state.extra_subsidy_amount);
@@ -116,75 +121,134 @@ function GetDrawAmount(lid, token){
       let url = `https://bosp-api.xiaojukeji.com/bosp-api/lottery/info?lid=${lid}&token=${token}&lucky_users=0`;
       magicJS.get(url, (err, resp, data)=>{
         if (err){
-          magicJS.logError(`获取转盘抽奖次数失败，请求异常：${err}`);
+          magicJS.logError(`获取福利金抽奖次数失败，请求异常：${err}`);
           resolve(0);
         }
         else{
-          magicJS.logDebug(`转盘抽奖，接口响应：${data}`);
+          magicJS.logDebug(`福利金抽奖，接口响应：${data}`);
           let obj = JSON.parse(data);
           if (obj.code == 0){
-            magicJS.logInfo(`转盘抽奖次数：${obj.data.eliminate_info.base_share_amount}`);
+            magicJS.logInfo(`福利金抽奖次数：${obj.data.eliminate_info.base_share_amount}`);
             resolve(obj.data.eliminate_info.base_share_amount);
           }
           else if (obj.code == 20008){
-            magicJS.logWarning('获取转盘抽奖次数失败');
+            magicJS.logWarning('获取福利金抽奖次数失败');
             magicJS.logWarning(obj.message);
             resolve(0);
           }
           else{
-            magicJS.logWarning(`获取转盘抽奖次数失败，响应异常：${data}`);
+            magicJS.logWarning(`获取福利金抽奖次数失败，响应异常：${data}`);
             resolve(0);
           }
         }
       })
     }
     catch (err){
-      magicJS.logError(`获取转盘抽奖次数失败，异常信息：${err}`);
+      magicJS.logError(`获取福利金抽奖次数失败，异常信息：${err}`);
       resolve(0);
     }
   });
 }
 
+// 福利金抽奖
 function LotteryDraw(lid, token){
   return new Promise((resolve) =>{
     try{
       let url = `https://bosp-api.xiaojukeji.com/bosp-api/lottery/draw?lid=${lid}&token=${token}`;
       magicJS.get(url, (err, resp, data)=>{
         if (err){
-          magicJS.logError(`转盘抽奖失败，请求异常：${err}`);
+          magicJS.logError(`福利金抽奖失败，请求异常：${err}`);
           resolve();
         }
         else{
-          magicJS.logDebug(`转盘抽奖，接口响应：${data}`);
+          magicJS.logDebug(`福利金抽奖，接口响应：${data}`);
           let obj = JSON.parse(data);
           if (obj.code === 0){
             magicJS.logInfo(`本次抽奖结果：${obj.data.prize.name}`);
             resolve(obj.data.prize.name);
           }
           else if(obj.code === 20003){
-            magicJS.logWarning(`转盘抽奖出现异常：${data}`);
+            magicJS.logWarning(`福利金抽奖出现异常：${data}`);
             resolve(obj.message);
           }
           else if(obj.code === 20010){
-            magicJS.logWarning(`转盘抽奖福利金不足：${data}`);
+            magicJS.logWarning(`福利金抽奖福利金不足：${data}`);
             resolve(obj.message);
           }
           else{
-            magicJS.logWarning(`转盘抽奖，响应异常：${data}`);
+            magicJS.logWarning(`福利金抽奖，响应异常：${data}`);
             resolve(obj.message);
           }
         }
       })
     }
     catch (err){
-      magicJS.logError(`转盘抽奖失败，异常信息：${err}`);
+      magicJS.logError(`福利金抽奖失败，异常信息：${err}`);
       resolve();
     }
   });
 }
 
+// 随机获取SourceId
 function getSourceId(){
+  let mySourceId = magicJS.read(didiMySourceIdKey);
+  if (!!mySourceId){
+    sourceIdList = sourceIdList.filter((value) =>{
+      return value !== mySourceId;
+    })
+  }
+  if (mySourceId !== '7mO4XP93fb84VMSC8Xk5vg%3D%3D' && mySourceId !== 'pDmWW7HoWUkNu2nmJ3HJEQ%3D%3D'){
+    sourceIdList = ['7mO4XP93fb84VMSC8Xk5vg%3D%3D'];
+  }
   return sourceIdList[Math.round(Math.random() * (sourceIdList.length - 1))]; 
+}
+
+// 天天有奖
+function DailyLotteryDraw(token, cityId, channelId, activityId, clientId=1){
+  return new Promise((resolve) =>{
+    try{
+      let options = {
+        url: 'https://manhattan.webapp.xiaojukeji.com/marvel/api/manhattan-signin-task/signIn/execute',
+        headers: {
+          "Accept": "*/*",
+          "Accept-Encoding": "gzip, deflate, br",
+          "Accept-Language": "zh-Hans;q=1",
+          "Content-Type": "application/json",
+          "X-Surge-Skip-Scripting": true
+        },
+        body: magicJS.isNode? {'token': token, 'channelId': channelId, 'activityId': activityId, 'clientId': clientId} : JSON.stringify({'token': token, 'channelId': channelId, 'activityId': activityId, 'clientId': clientId})
+      }
+      magicJS.post(options, (err, resp, data)=>{
+        if (err){
+          magicJS.logError(`天天有奖失败，请求异常：${err}`);
+          resolve([null, []]);
+        }
+        else{
+          let obj = typeof data === 'string'? JSON.parse(data) : data;
+          magicJS.logDebug(`天天有奖，接口响应：${data}`);
+          let giftList = [];
+          if (obj.errorCode === 0){
+            obj.data.giftDetail.forEach(gift => {
+              magicJS.logInfo(`天天有奖签到结果：${gift.displayJson.displayName} ${gift.displayValue} ${gift.displayUnit}`);
+              giftList.push({'name': gift.displayJson.displayName, 'value': gift.displayValue, 'unit': gift.displayUnit, 'endDate':gift.giftEndDate});
+            });
+            resolve([`🎁天天有奖连续签到${obj.data.serialSignInTimes}天`, giftList]);
+          }
+          else if(obj.errorCode === 500000){
+            resolve([`🎁天天有奖今天已经签到过了`, []]);
+          }
+          else{
+            magicJS.logWarning(`天天有奖，响应异常：${data}`);
+            resolve([null, []]);
+          }
+        }
+      })
+    }
+    catch (err){
+      magicJS.logError(`天天有奖失败，异常信息：${err}`);
+      resolve([null, []]);
+    }
+  });
 }
 
 async function Main(){
@@ -235,6 +299,18 @@ async function Main(){
         magicJS.notify('❌滴滴出行写入lid失败，请查阅日志');
       }
     }
+    else if (getActivityIdRegex.test(magicJS.request.url)){
+      try{
+        let obj = JSON.parse(magicJS.request.body);
+        magicJS.write(didiActivityIdKey, obj.activityId);
+        magicJS.write(didiChannelIdKey, obj.channelId);
+        magicJS.logInfo(`获取天天有奖ActivityId和ChannelId成功：${obj.activityId}，${obj.channelId}`);
+        magicJS.notify('获取天天有奖ActivityId和ChannelId成功');
+      }
+      catch(err){
+        magicJS.logError(`获取天天有奖ActivityId异常：${err}`);
+      }
+    }
   }
   else{
     let subTitle = '';
@@ -242,6 +318,8 @@ async function Main(){
     let cityId = magicJS.read(didiCityIdKey);
     let token = magicJS.read(didiTokenKey);
     let lid = magicJS.read(didiLidKey);
+    let channelId = magicJS.read(didiChannelIdKey) || '5286158810015504';
+    let activityId = magicJS.read(didiActivityIdKey) || '140737579736652';
 
     // 签到
     if (token && cityId){
@@ -263,14 +341,12 @@ async function Main(){
         });
       }
 
-      // 抽奖
+      // 福利金抽奖
       if (lid) {
         let drawCount = await GetDrawAmount(lid, token);
         if (drawCount > 0){
-          // 避免抽奖太频繁
-          await magicJS.sleep(5000);
           if (content) content += '\n';
-          content = `转盘抽奖${drawCount}次：`;
+          content = `福利金抽奖${drawCount}次：`;
           for (let i=0;i<drawCount;i++){
             // 避免抽奖太频繁
             await magicJS.sleep(5000);
@@ -279,6 +355,25 @@ async function Main(){
               content += `\n第${i+1}次：${drawResult}`;
             }
           }
+        }
+      }
+
+      if (channelId && activityId){
+        // 天天有奖
+        let [serialSignInTimes, giftList] = await DailyLotteryDraw(token, cityId, channelId, activityId);
+        if (serialSignInTimes !== null){
+          if (content) content += '\n';
+          content += serialSignInTimes;
+        }
+        if (giftList.length > 0){
+          if (content) content += '\n';
+          content += '，奖励：';
+          for(let i=0;i<giftList.length;i++){
+            content += `\n${giftList[i].name} ${giftList[i].value} ${giftList[i].unit} 过期 ${giftList[i].endDate}`;
+          }
+        }
+        else{
+          content += '。';
         }
       }
 

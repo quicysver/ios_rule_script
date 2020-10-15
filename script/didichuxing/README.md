@@ -1,6 +1,6 @@
 # 滴滴出行
 
-滴滴出行每日自动签到，基于 https://github.com/zZPiglet/Task/tree/master/DiDi 进行重写。
+滴滴出行每日自动签到与抽奖，基于 https://github.com/zZPiglet/Task/tree/master/DiDi 进行重写。
 
 做如下改动：
 
@@ -41,6 +41,16 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/script/did
 
 重新进入一次滴滴出行APP，即可获取Cookie。
 
+## 获取lid
+
 抽奖需要获取lid，获取路径为滴滴左上角-钱包-我的钱包-福利金-福利金抽奖。
 
-不获取lid，不会启用抽奖功能，不影响使用。
+**不获取lid，不会启用抽奖功能，不影响使用。**
+
+## 获取ActivityId
+
+天天有奖，首次使用需要手动签到一次获取ActivityId和ChannelId，不获取会尝试使用内置的ActivityId和ChannelId。
+
+获取路径：滴滴出行 - 左侧菜单 - 钱包 - 天天有奖，手动签到一次。
+
+**不获取ActivityId和ChannelId，不会启用天天有奖签到，不影响使用。**
