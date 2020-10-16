@@ -8,7 +8,7 @@
 
 需要将规则置于YouTube分流规则之前。
 
-最后检查时间：2020-10-16 12:44:51。
+最后检查时间：2020-10-16 13:20:29。
 
 ## 规则统计
 
@@ -27,7 +27,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/Youtube.list)   |   14.29%  |
+|  [YouTube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/YouTube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/YouTube.list)   |   14.29%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/Global.list)   |   0.24%  |
 |  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 296   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/GlobalMedia.list)   |   1.35%  |
 ## 配置说明
