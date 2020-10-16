@@ -7,7 +7,7 @@
 定时爬取互联网上开源的隐私分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:26。
+最后检查时间：2020-10-16 10:25:47。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 156031   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Privacy/Advertising.list)   |   0.01%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 155906   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Privacy/Advertising.list)   |   0.01%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Privacy/AdvertisingLite.list)   |   0.01%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Privacy/China.list)   |   0.17%  |
 ## 配置说明
@@ -81,6 +81,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

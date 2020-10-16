@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:27。
+最后检查时间：2020-10-16 10:25:47。
 
 ## 规则统计
 
@@ -31,11 +31,12 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/China.list)   |   1.18%  |
-|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/Bilibili.list)   |   100.00%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/ChinaMedia.list)   |   33.33%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/ChinaIPs.list)   |   0.03%  |
+|  [Bilibili](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bilibili)    | 13   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/Bilibili.list)   |   100.00%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6981   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/ChinaIPs.list)   |   0.04%  |
 |  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/iQiyi.list)   |   100.00%  |
 |  [TencentVideo](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TencentVideo)    | 2   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/TencentVideo.list)   |   50.00%  |
+|  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AsianMedia/Youku.list)   |   100.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -86,6 +87,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

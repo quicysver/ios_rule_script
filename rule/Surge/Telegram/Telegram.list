@@ -1,10 +1,11 @@
 # NAME: Telegram
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-15 15:50:53
+# UPDATE: 2020-10-16 10:25:41
+# DOMAIN-KEYWORD: 1
 # DOMAIN-SUFFIX: 7
 # IP-CIDR: 9
 # IP-CIDR6: 3
-# TOTAL: 19
+# TOTAL: 20
 DOMAIN-SUFFIX,t.me
 DOMAIN-SUFFIX,tdesktop.com
 DOMAIN-SUFFIX,telegra.ph
@@ -12,6 +13,7 @@ DOMAIN-SUFFIX,telegram.me
 DOMAIN-SUFFIX,telegram.org
 DOMAIN-SUFFIX,telesco.pe
 DOMAIN-SUFFIX,tx.me
+DOMAIN-KEYWORD,telegram
 IP-CIDR,109.239.140.0/24,no-resolve
 IP-CIDR,149.154.160.0/20,no-resolve
 IP-CIDR,91.108.0.0/16,no-resolve

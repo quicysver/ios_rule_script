@@ -7,7 +7,7 @@
 定时爬取互联网上开源的腾讯视频分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:27。
+最后检查时间：2020-10-16 10:25:48。
 
 ## 规则统计
 
@@ -48,6 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 本项目的腾讯视频分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的腾讯视频分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Media/Tencent%20Video.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/TencentVideo.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -78,6 +79,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

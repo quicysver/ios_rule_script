@@ -7,7 +7,7 @@
 定时爬取互联网上开源的爱奇艺分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:27。
+最后检查时间：2020-10-16 10:25:48。
 
 ## 规则统计
 
@@ -31,7 +31,7 @@
 | ---- | ---- | ---- | ------ |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/iQiyi/ChinaMedia.list)   |   9.33%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/iQiyi/AsianMedia.list)   |   25.00%  |
-|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6607   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/iQiyi/ChinaIPs.list)   |   0.03%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaIPs)    | 6981   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/iQiyi/ChinaIPs.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -82,6 +82,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

@@ -9,7 +9,7 @@
 本复写规则不包含任何知乎去广告规则
 
 
-最后检查时间：2020-10-15 15:51:13。
+最后检查时间：2020-10-16 10:25:55。
 
 ## 复写统计
 
@@ -80,3 +80,9 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rewrite/Q
 5. 有其他问题
 
 欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的去广告复写规则。
+
+感谢
+
+[@Tartarus2014](https://github.com/Tartarus2014)
+
+提供规则数据及改进建议

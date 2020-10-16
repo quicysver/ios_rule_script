@@ -8,18 +8,18 @@
 
 不含有Apple News等国内无法使用的分流规则
 
-最后检查时间：2020-10-15 23:21:25。
+最后检查时间：2020-10-16 10:25:42。
 
 ## 规则统计
 
-总计规则：49 条。
+总计规则：51 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 19 |
-| DOMAIN-SUFFIX | 19 |
+| DOMAIN | 20 |
+| DOMAIN-SUFFIX | 20 |
 | IP-CIDR | 10 |
 | USER-AGENT | 1 |
 ## 重复统计
@@ -30,12 +30,12 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 156031   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Advertising.list)   |   0.00%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 9   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AppleNews.list)   |   22.22%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 155906   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Advertising.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/China.list)   |   2.02%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/China.list)   |   2.19%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/BlackList.list)   |   0.39%  |
-|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 31   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Microsoft.list)   |   3.23%  |
-|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AppleNews.list)   |   11.11%  |
+|  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 99   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Microsoft.list)   |   2.02%  |
 |  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleBlock)    | 6   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AppleBlock.list)   |   50.00%  |
 |  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Download.list)   |   14.29%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Global.list)   |   0.36%  |
@@ -65,6 +65,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Apple_CDN.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/Apple.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/Sub/AppleGlobal.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Apple.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -95,6 +96,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

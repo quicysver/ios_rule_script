@@ -7,18 +7,18 @@
 定时爬取互联网上开源的Twitter分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:27。
+最后检查时间：2020-10-16 10:25:47。
 
 ## 规则统计
 
-总计规则：8 条。
+总计规则：11 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
 | DOMAIN-KEYWORD | 1 |
-| DOMAIN-SUFFIX | 7 |
+| DOMAIN-SUFFIX | 10 |
 ## 重复统计
 
 Twitter分流规则，与本项目其他分流规则重复情况统计。
@@ -28,7 +28,7 @@ Twitter分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Twitter/BlackList.list)   |   0.90%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Twitter/Global.list)   |   0.95%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Twitter/Global.list)   |   1.19%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Twitter/Proxy.list)   |   0.91%  |
 ## 配置说明
 
@@ -50,6 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 本项目的Twitter分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的Twitter分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/Twitter/Twitter.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Ruleset/Twitter.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -80,6 +81,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

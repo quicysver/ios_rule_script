@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Google分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:25。
+最后检查时间：2020-10-16 10:25:44。
 
 ## 规则统计
 
@@ -31,6 +31,7 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/BlackList.list)   |   4.76%  |
 |  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Youtube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Youtube.list)   |   14.29%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Global.list)   |   6.65%  |
+|  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Spark.list)   |   25.00%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 773   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Proxy.list)   |   4.79%  |
 ## 配置说明
 
@@ -84,6 +85,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议

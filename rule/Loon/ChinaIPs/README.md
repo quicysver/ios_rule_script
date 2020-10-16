@@ -7,17 +7,17 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-15 23:21:27。
+最后检查时间：2020-10-16 10:25:48。
 
 ## 规则统计
 
-总计规则：6607 条。
+总计规则：6981 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| IP-CIDR | 6607 |
+| IP-CIDR | 6981 |
 ## 重复统计
 
 分流规则，与本项目其他分流规则重复情况统计。
@@ -27,8 +27,9 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/ChinaMedia.list)   |   2.67%  |
-|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/AsianMedia.list)   |   7.14%  |
+|  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AsianMedia)    | 28   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/AsianMedia.list)   |   10.71%  |
 |  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/iQiyi)    | 7   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/iQiyi.list)   |   28.57%  |
+|  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/Youku.list)   |   100.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -49,6 +50,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 本项目的分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
@@ -79,6 +81,6 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 
 感谢
 
-[@zjcfynn](https://github.com/zjcfynn)
+[@zjcfynn](https://github.com/zjcfynn) [@Tartarus2014](https://github.com/Tartarus2014)
 
 提供规则数据及改进建议
