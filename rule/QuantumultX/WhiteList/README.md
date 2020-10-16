@@ -6,21 +6,23 @@
 
 定时爬取互联网上开源的白名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
+不应该被去广告分流规则屏蔽的网站。
 
-最后检查时间：2020-10-16 11:07:36。
+最后检查时间：2020-10-16 11:23:37。
 
 ## 规则统计
 
-总计规则：19 条。
+总计规则：34 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 11 |
+| DOMAIN | 20 |
 | DOMAIN-KEYWORD | 1 |
-| DOMAIN-SUFFIX | 5 |
+| DOMAIN-SUFFIX | 7 |
 | URL-REGEX | 2 |
+| USER-AGENT | 4 |
 ## 重复统计
 
 白名单分流规则，与本项目其他分流规则重复情况统计。
@@ -29,8 +31,8 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 157435   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 157435   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/AdvertisingLite.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/China.list)   |   0.67%  |
 ## 配置说明
 
@@ -53,6 +55,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
 - https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
+- https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Unbreak.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
