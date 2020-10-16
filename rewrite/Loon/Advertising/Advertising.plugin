@@ -1,8 +1,8 @@
 # NAME: 去广告
-# REWRITE: 831
+# REWRITE: 827
 # MITM: 553
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-16 16:20:58
+# UPDATE: 2020-10-16 16:30:03
 
 [URL Rewrite]
 ^https?:\/\/((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)\.){3}(25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(:\d+)?\/V\d\/splash\/getSplashV\d\.action$ - reject
@@ -51,8 +51,6 @@
 ^https?:\/\/.+?\.atm\.youku\.com - reject
 ^https?:\/\/.+?\.beacon\.qq\.com - reject
 ^https?:\/\/.+?\.gdt\.qq\.com - reject
-^https?:\/\/.+?\.googlevideo\.com\/.+?(?>&oad|ctier) - reject-200
-^https?:\/\/.+?\.googlevideo\.com\/ptracking\?pltype=adhost - reject
 ^https?:\/\/.+?\.iydsj\.com\/api\/.+?\/ad - reject-200
 ^https?:\/\/.+?\.kakamobi\.cn\/api\/open\/v\d\/advert-sdk\/ - reject
 ^https?:\/\/.+?\.kingsoft-office-service\.com\/ad - reject
@@ -121,7 +119,6 @@
 ^https?:\/\/[\s\S]*\/youku\/.*?\.mp4 - reject
 ^https?:\/\/[\w-.]+\.ott\.cibntv\.net\/[\w\/-]+.mp4\?sid= - reject
 ^https?:\/\/[\w-]+\.(amemv|musical|snssdk|tiktokv)\.(com|ly)\/(api|motor)\/ad\/ - reject
-^https?:\/\/[\w-]+\.googlevideo\.com\/.+(&oad|ctier) - reject
 ^https?:\/\/[\w-]+\.snssdk\.com\/.+_ad\/ - reject
 ^https?:\/\/[^(apple|10010)]+\.(com|cn)\/(a|A)d(s|v)?(/|\.js) - reject
 ^https?:\/\/[^bbs].tianya\.cn - reject
@@ -822,7 +819,6 @@
 ^https?:\/\/www\.nfmovies\.com\/templets\/default\/images\/logos - reject
 ^https?:\/\/www\.nfmovies\.com\/uploads\/images\/play\.jpg - reject
 ^https?:\/\/www\.oschina\.net\/action\/apiv2\/get_launcher - reject
-^https?:\/\/www\.shihuo\.cn\/app3\/saveAppInfo - reject
 ^https?:\/\/www\.shihuo\.cn\/app\d\/saveAppInfo - reject
 ^https?:\/\/www\.tsytv\.com\.cn\/api\/app\/ios\/ads - reject
 ^https?:\/\/www\.xiaohongshu\.com\/api\/sns\/v\d\/system_service\/splash_config - reject
