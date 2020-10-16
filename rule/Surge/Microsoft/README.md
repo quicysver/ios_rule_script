@@ -8,7 +8,7 @@
 
 含有OneDriver分流规则
 
-最后检查时间：2020-10-16 13:20:26。
+最后检查时间：2020-10-16 14:35:48。
 
 ## 规则统计
 
@@ -38,7 +38,7 @@ Microsoft分流规则，与本项目其他分流规则重复情况统计。
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/AppleNews.list)   |   11.11%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/BlackList.list)   |   1.67%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/China.list)   |   2.02%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 13   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Download.list)   |   7.69%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 11   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Download.list)   |   9.09%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Global.list)   |   1.19%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [27](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Microsoft/Proxy.list)   |   0.45%  |
 ## 配置说明

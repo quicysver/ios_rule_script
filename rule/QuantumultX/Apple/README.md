@@ -8,7 +8,7 @@
 
 不含有Apple News等国内无法使用的分流规则
 
-最后检查时间：2020-10-16 13:20:24。
+最后检查时间：2020-10-16 14:35:46。
 
 ## 规则统计
 
@@ -36,7 +36,7 @@ Apple分流规则，与本项目其他分流规则重复情况统计。
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AppleNews)    | 9   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/AppleNews.list)   |   22.22%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/BlackList)    | 778   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/BlackList.list)   |   0.39%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [13](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/China.list)   |   2.19%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download)    | 13   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Download.list)   |   7.69%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Download)    | 11   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Download.list)   |   9.09%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Microsoft)    | 99   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Microsoft.list)   |   2.02%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Global)    | 842   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Global.list)   |   0.36%  |
 |  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Proxy)    | 5984   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Apple/Proxy.list)   |   0.03%  |

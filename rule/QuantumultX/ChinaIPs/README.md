@@ -1,13 +1,13 @@
-# 
+# ChinaIPs
 
 ## 前言
 
-本项目的分流规则由爬虫程序自动维护。
+本项目的ChinaIPs分流规则由爬虫程序自动维护。
 
-定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
+定时爬取互联网上开源的ChinaIPs分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 13:20:25。
+最后检查时间：2020-10-16 14:35:47。
 
 ## 规则统计
 
@@ -20,7 +20,7 @@
 | IP-CIDR | 7162 |
 ## 重复统计
 
-分流规则，与本项目其他分流规则重复情况统计。
+ChinaIPs分流规则，与本项目其他分流规则重复情况统计。
 
 点击重复数量可以查看重复规则明细。
 
@@ -48,7 +48,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 
 ## 数据来源
 
-本项目的分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的分流规则，以免造成规则重复。
+本项目的ChinaIPs分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的ChinaIPs分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
@@ -79,7 +79,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 4. 在使用分流规则时出现异常
 5. 有其他问题
 
-欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的分流规则。
+欢迎通过[issues](https://github.com/blackmatrix7/ios_rule_script/issues/new)提交反馈，共同完善本项目的ChinaIPs分流规则。
 
 感谢
 
