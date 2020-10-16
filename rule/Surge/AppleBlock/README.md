@@ -7,7 +7,7 @@
 定时爬取互联网上开源的AppleBlock分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:45。
+最后检查时间：2020-10-16 11:07:34。
 
 ## 规则统计
 
@@ -30,9 +30,10 @@ AppleBlock分流规则，与本项目其他分流规则重复情况统计。
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 51   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/Apple.list)   |   5.88%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/AppleNews.list)   |   11.11%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/BlackList.list)   |   0.77%  |
+|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 14   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/Download.list)   |   7.14%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 99   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/Microsoft.list)   |   1.01%  |
-|  [Download](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Download)    | 7   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/Download.list)   |   14.29%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/Global.list)   |   0.71%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/AppleBlock/Proxy.list)   |   0.02%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

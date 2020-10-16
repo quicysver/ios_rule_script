@@ -7,7 +7,7 @@
 定时爬取互联网上开源的网易云音乐分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:45。
+最后检查时间：2020-10-16 11:07:37。
 
 ## 规则统计
 
@@ -28,8 +28,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 155906   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/NetEaseMusic/Advertising.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 157435   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/NetEaseMusic/Advertising.list)   |   0.00%  |
 |  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/China)    | 593   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/NetEaseMusic/China.list)   |   1.52%  |
+|  [ChinaIPs](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaIPs)    | 7162   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/NetEaseMusic/ChinaIPs.list)   |   0.04%  |
 |  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/NetEaseMusic/ChinaMedia.list)   |   2.67%  |
 |  [NetEase](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEase)    | 9   | [9](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/NetEaseMusic/NetEase.list)   |   100.00%  |
 ## 配置说明

@@ -8,7 +8,7 @@
 
 含有PlayStation。
 
-最后检查时间：2020-10-16 10:25:47。
+最后检查时间：2020-10-16 11:07:38。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@ Sony分流规则，与本项目其他分流规则重复情况统计。
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Sony/BlackList.list)   |   0.64%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Sony/Proxy.list)   |   0.65%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Sony/Proxy.list)   |   0.08%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

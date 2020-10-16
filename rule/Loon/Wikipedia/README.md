@@ -7,7 +7,7 @@
 定时爬取互联网上开源的维基分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:48。
+最后检查时间：2020-10-16 11:07:39。
 
 ## 规则统计
 
@@ -28,7 +28,7 @@
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Wikipedia/BlackList.list)   |   0.39%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Wikipedia/Global.list)   |   0.59%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 773   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Wikipedia/Proxy.list)   |   0.39%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5984   | [12](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Wikipedia/Proxy.list)   |   0.20%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

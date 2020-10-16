@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Google分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:44。
+最后检查时间：2020-10-16 11:07:36。
 
 ## 规则统计
 
@@ -31,8 +31,9 @@ Google分流规则，与本项目其他分流规则重复情况统计。
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/BlackList.list)   |   4.76%  |
 |  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youtube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Youtube.list)   |   14.29%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [56](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Global.list)   |   6.65%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 296   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/GlobalMedia.list)   |   1.01%  |
 |  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Spark.list)   |   25.00%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [37](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Proxy.list)   |   4.79%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [53](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Google/Proxy.list)   |   0.89%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -8,7 +8,7 @@
 
 需要将规则置于YouTube分流规则之前。
 
-最后检查时间：2020-10-16 10:25:48。
+最后检查时间：2020-10-16 11:07:39。
 
 ## 规则统计
 
@@ -29,7 +29,7 @@
 | ---- | ---- | ---- | ------ |
 |  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 14   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/Youtube.list)   |   14.29%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/Global.list)   |   0.24%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 192   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/GlobalMedia.list)   |   1.04%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/GlobalMedia)    | 296   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/YouTubeMusic/GlobalMedia.list)   |   1.35%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

@@ -7,17 +7,17 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:47。
+最后检查时间：2020-10-16 11:07:35。
 
 ## 规则统计
 
-总计规则：6981 条。
+总计规则：7162 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| IP-CIDR | 6981 |
+| IP-CIDR | 7162 |
 ## 重复统计
 
 分流规则，与本项目其他分流规则重复情况统计。
@@ -26,9 +26,10 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/ChinaMedia.list)   |   2.67%  |
 |  [AsianMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AsianMedia)    | 28   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/AsianMedia.list)   |   10.71%  |
-|  [iQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/iQiyi)    | 7   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/iQiyi.list)   |   28.57%  |
+|  [ChinaMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/ChinaMedia)    | 75   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/ChinaMedia.list)   |   2.67%  |
+|  [NetEaseMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/NetEaseMusic)    | 50   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/NetEaseMusic.list)   |   6.00%  |
+|  [IQiyi](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/IQiyi)    | 7   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/IQiyi.list)   |   28.57%  |
 |  [Youku](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Youku)    | 1   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/ChinaIPs/Youku.list)   |   100.00%  |
 ## 配置说明
 
@@ -51,6 +52,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 
 - https://raw.githubusercontent.com/lhie1/Rules/master/Surge/Surge%203/Provider/Domestic%20IPs.list
 - https://raw.githubusercontent.com/DivineEngine/Profiles/master/Surge/Ruleset/Extra/ChinaIP.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ChinaCompanyIp.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

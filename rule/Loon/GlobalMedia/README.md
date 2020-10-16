@@ -7,21 +7,21 @@
 定时爬取互联网上开源的GlobalMedia分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:46。
+最后检查时间：2020-10-16 11:07:38。
 
 ## 规则统计
 
-总计规则：192 条。
+总计规则：296 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 37 |
-| DOMAIN-KEYWORD | 6 |
-| DOMAIN-SUFFIX | 98 |
-| IP-CIDR | 15 |
-| USER-AGENT | 36 |
+| DOMAIN | 57 |
+| DOMAIN-KEYWORD | 13 |
+| DOMAIN-SUFFIX | 160 |
+| IP-CIDR | 20 |
+| USER-AGENT | 46 |
 ## 重复统计
 
 GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
@@ -30,20 +30,26 @@ GlobalMedia分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 155906   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/AdvertisingLite.list)   |   0.00%  |
-|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/BlackList.list)   |   1.29%  |
-|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 14   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Youtube.list)   |   50.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 157435   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/AdvertisingLite.list)   |   0.00%  |
+|  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleNews)    | 9   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/AppleNews.list)   |   33.33%  |
+|  [AppleTV](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AppleTV)    | 3   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/AppleTV.list)   |   100.00%  |
+|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Bahamut.list)   |   100.00%  |
+|  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [18](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/BlackList.list)   |   2.31%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/China.list)   |   0.51%  |
+|  [Google](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Google)    | 64   | [3](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Google.list)   |   4.69%  |
+|  [Youtube](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Youtube)    | 14   | [14](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Youtube.list)   |   100.00%  |
 |  [Niconico](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Niconico)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Niconico.list)   |   100.00%  |
 |  [Speedtest](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Speedtest)    | 5   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Speedtest.list)   |   20.00%  |
-|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix)    | 40   | [34](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Netflix.list)   |   85.00%  |
+|  [Netflix](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Netflix)    | 40   | [40](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Netflix.list)   |   100.00%  |
+|  [TikTok](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/TikTok)    | 11   | [11](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/TikTok.list)   |   100.00%  |
 |  [Pornhub](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Pornhub)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Pornhub.list)   |   100.00%  |
-|  [Bahamut](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Bahamut)    | 5   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Bahamut.list)   |   100.00%  |
-|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Disney)    | 7   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Disney.list)   |   85.71%  |
-|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [186](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Global.list)   |   22.09%  |
-|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify)    | 8   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Spotify.list)   |   87.50%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 773   | [10](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Proxy.list)   |   1.29%  |
-|  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTubeMusic)    | 4   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/YouTubeMusic.list)   |   50.00%  |
+|  [Disney](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Disney)    | 7   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Disney.list)   |   100.00%  |
+|  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [193](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Global.list)   |   22.92%  |
+|  [Spotify](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spotify)    | 8   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Spotify.list)   |   100.00%  |
+|  [Spark](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Spark)    | 4   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Spark.list)   |   25.00%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5984   | [52](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/Proxy.list)   |   0.87%  |
+|  [YouTubeMusic](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/YouTubeMusic)    | 4   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/GlobalMedia/YouTubeMusic.list)   |   100.00%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -66,6 +72,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Loon
 - https://raw.githubusercontent.com/ConnersHua/Profiles/master/Surge/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/eHpo1/Rules/master/Surge4/Ruleset/GlobalMedia.list
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/connershua/Quantumult/X/Filter/ForeignMedia.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

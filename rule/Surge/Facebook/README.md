@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Facebook分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:46。
+最后检查时间：2020-10-16 11:07:36。
 
 ## 规则统计
 
@@ -30,7 +30,7 @@ Facebook分流规则，与本项目其他分流规则重复情况统计。
 | ---- | ---- | ---- | ------ |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Facebook/BlackList.list)   |   0.77%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [25](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Facebook/Global.list)   |   2.97%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Facebook/Proxy.list)   |   0.78%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [16](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Facebook/Proxy.list)   |   0.27%  |
 |  [Instagram](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Instagram)    | 2   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Facebook/Instagram.list)   |   100.00%  |
 ## 配置说明
 

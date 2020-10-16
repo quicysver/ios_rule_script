@@ -7,7 +7,7 @@
 定时爬取互联网上开源的Adobe分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:43。
+最后检查时间：2020-10-16 11:07:33。
 
 ## 规则统计
 
@@ -28,13 +28,13 @@ Adobe分流规则，与本项目其他分流规则重复情况统计。
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 155906   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/Advertising.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Advertising)    | 157435   | [6](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/Advertising.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/AdvertisingLite)    | 131289   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/AdvertisingLite.list)   |   0.00%  |
-|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/China.list)   |   0.34%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/BlackList)    | 778   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/BlackList.list)   |   0.90%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/China)    | 593   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/China.list)   |   0.34%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Microsoft)    | 99   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/Microsoft.list)   |   1.01%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Global)    | 842   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/Global.list)   |   0.12%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 773   | [7](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/Proxy.list)   |   0.91%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Loon/Proxy)    | 5984   | [8](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Adobe/Proxy.list)   |   0.13%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

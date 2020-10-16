@@ -1,11 +1,13 @@
 # NAME: Download
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-16 10:25:41
+# UPDATE: 2020-10-16 11:07:32
 # DOMAIN: 1
 # DOMAIN-KEYWORD: 5
-# URL-REGEX: 1
-# TOTAL: 7
+# DOMAIN-SUFFIX: 1
+# URL-REGEX: 7
+# TOTAL: 14
 HOST,process-name,Download
+HOST-SUFFIX,smtp,Download
 HOST-KEYWORD,aria2,Download
 HOST-KEYWORD,thunder,Download
 HOST-KEYWORD,xlliveud,Download

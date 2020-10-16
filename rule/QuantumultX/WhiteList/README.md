@@ -7,19 +7,19 @@
 定时爬取互联网上开源的白名单分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:44。
+最后检查时间：2020-10-16 11:07:36。
 
 ## 规则统计
 
-总计规则：6 条。
+总计规则：19 条。
 
 各类型规则统计：
 
 | 类型 | 数量(条) |
 | ---- | ---- |
-| DOMAIN | 1 |
+| DOMAIN | 11 |
 | DOMAIN-KEYWORD | 1 |
-| DOMAIN-SUFFIX | 2 |
+| DOMAIN-SUFFIX | 5 |
 | URL-REGEX | 2 |
 ## 重复统计
 
@@ -29,8 +29,9 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 155906   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/Advertising.list)   |   0.00%  |
-|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/AdvertisingLite.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/Advertising)    | 157435   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/Advertising.list)   |   0.00%  |
+|  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/AdvertisingLite)    | 131289   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/AdvertisingLite.list)   |   0.00%  |
+|  [China](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/QuantumultX/China)    | 593   | [4](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/WhiteList/China.list)   |   0.67%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化
@@ -51,6 +52,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Quan
 本项目的白名单分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的白名单分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/source/rule/WhiteList/WhiteList.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/UnBan.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。

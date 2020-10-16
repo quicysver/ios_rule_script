@@ -7,7 +7,7 @@
 定时爬取互联网上开源的分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:45。
+最后检查时间：2020-10-16 11:07:37。
 
 ## 规则统计
 
@@ -27,12 +27,12 @@
 
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
-|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 155906   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/Advertising.list)   |   0.00%  |
+|  [Advertising](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Advertising)    | 157435   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/Advertising.list)   |   0.00%  |
 |  [AdvertisingLite](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AdvertisingLite)    | 131289   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/AdvertisingLite.list)   |   0.00%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/BlackList.list)   |   0.26%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/Global.list)   |   0.59%  |
-|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 192   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/GlobalMedia.list)   |   2.60%  |
-|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 773   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/Proxy.list)   |   0.26%  |
+|  [GlobalMedia](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/GlobalMedia)    | 296   | [5](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/GlobalMedia.list)   |   1.69%  |
+|  [Proxy](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Proxy)    | 5984   | [2](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Niconico/Proxy.list)   |   0.03%  |
 ## 配置说明
 
 实时版：爬虫程序定时更新，更新频率高，能尽快同步数据源变化

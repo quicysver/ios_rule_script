@@ -1,14 +1,27 @@
 # NAME: WhiteList
 # GITHUB: https://github.com/blackmatrix7/ios_rule_script
-# UPDATE: 2020-10-16 10:25:41
-# DOMAIN: 1
+# UPDATE: 2020-10-16 11:07:32
+# DOMAIN: 11
 # DOMAIN-KEYWORD: 1
-# DOMAIN-SUFFIX: 2
+# DOMAIN-SUFFIX: 5
 # URL-REGEX: 2
-# TOTAL: 6
+# TOTAL: 19
 DOMAIN,ad.10010.com
+DOMAIN,analytics.strava.com
+DOMAIN,app.adjust.com
+DOMAIN,bdtj.tagtic.cn
+DOMAIN,dl.google.com
+DOMAIN,livew.l.qq.com
+DOMAIN,msg.umeng.com
+DOMAIN,msg.umengcloud.com
+DOMAIN,mtalk.google.com
+DOMAIN,tracking.miui.com
+DOMAIN,vd.l.qq.com
 DOMAIN-SUFFIX,f.video.weibocdn.com
 DOMAIN-SUFFIX,fus.cdn.krcom.cn
+DOMAIN-SUFFIX,googletraveladservices.com
+DOMAIN-SUFFIX,ol.epicgames.com
+DOMAIN-SUFFIX,tracking-protection.cdn.mozilla.net
 DOMAIN-KEYWORD,wb_ad
 URL-REGEX,^https?:\/\/app\.bilibili\.com\/x\/v2\/splash\/brand\/set
 URL-REGEX,^https?:\/\/www\.didapinche\.com\/app\/adstat.*&ad_type=(ride_paid|benefits)

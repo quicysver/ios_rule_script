@@ -7,11 +7,11 @@
 定时爬取互联网上开源的下载分流规则，将其进行清洗、去重、合并、优化后，形成单一的分流规则文件，旨在解决引用大量外部规则造成规则重复的问题。
 
 
-最后检查时间：2020-10-16 10:25:46。
+最后检查时间：2020-10-16 11:07:36。
 
 ## 规则统计
 
-总计规则：7 条。
+总计规则：14 条。
 
 各类型规则统计：
 
@@ -19,7 +19,8 @@
 | ---- | ---- |
 | DOMAIN | 1 |
 | DOMAIN-KEYWORD | 5 |
-| URL-REGEX | 1 |
+| DOMAIN-SUFFIX | 1 |
+| URL-REGEX | 7 |
 ## 重复统计
 
 下载分流规则，与本项目其他分流规则重复情况统计。
@@ -29,10 +30,10 @@
 | 名称 | 数量 | 重复 | 重合度 |
 | ---- | ---- | ---- | ------ |
 |  [Apple](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Apple)    | 51   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/Apple.list)   |   1.96%  |
+|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/AppleBlock.list)   |   16.67%  |
 |  [AppleNews](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleNews)    | 9   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/AppleNews.list)   |   11.11%  |
 |  [BlackList](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/BlackList)    | 778   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/BlackList.list)   |   0.13%  |
 |  [Microsoft](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Microsoft)    | 99   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/Microsoft.list)   |   1.01%  |
-|  [AppleBlock](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/AppleBlock)    | 6   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/AppleBlock.list)   |   16.67%  |
 |  [Global](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Surge/Global)    | 842   | [1](https://github.com/blackmatrix7/ios_rule_script/tree/master/rule/Repeat/Download/Global.list)   |   0.12%  |
 ## 配置说明
 
@@ -54,6 +55,7 @@ https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Surg
 本项目的下载分流规则的数据来自以下链接，通常已涵盖所有数据来源的分流规则。如果你正在使用这些分流规则，请先删除后再使用本项目的下载分流规则，以免造成规则重复。
 
 - https://raw.githubusercontent.com/NobyDa/Script/master/Surge/Download.list
+- https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/Download.list
 
 
 感谢以上分流规则作者的辛勤付出（排名不分先后）。
